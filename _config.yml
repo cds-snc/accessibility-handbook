@@ -9,7 +9,7 @@ collections:
     permalink: /:path/
 
 # Title
-name: Design research handbook
+name: Accessibility handbook
 subtitle: Tips, tools, processes and approaches for understanding the people we serve
 
 # When using this template with a project page set the baseurl to '/project-name'
@@ -17,7 +17,7 @@ subtitle: Tips, tools, processes and approaches for understanding the people we 
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/design-research-handbook'
+baseurl: '/accessibility-handbook'
 
 # Author/Organization info to be displayed in the templates
 author:
