@@ -1,4 +1,4 @@
-# *Design research team handbook* 
+# *Test* 
 
 
 ## Editing the documentation
