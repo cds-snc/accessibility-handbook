@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "What do we test for accessibility"
+title:  "How to test for accessibility"
 lang: en
 category: "Processes"
 permalink: "/test-for-accessibility/"
