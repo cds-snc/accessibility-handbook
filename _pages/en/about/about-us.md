@@ -7,7 +7,7 @@ permalink: "/about-us/"
 trans_url: "/fr-needed/"
 ---
 
-Design research is foundational to creating products, services, and systems that respond to human needs. 
+Accessiblity is the foundation to creating inclusive products, services, and systems that respond to human needs. 
 
 ### Who we are
 
@@ -16,11 +16,10 @@ Accessibility and Inclusive Services Lead
 All-the-things
 
 
-
 ### What we do
-Goal: Identify user needs that inform design (+dev)
-How
-- Planning research activities - helping frame the problem 
+Goal: Share information on accessibility and inclusive design.
+
+Accessibility best practices can be complicated and change over time. 
 
 ### How we work with others
 
@@ -32,22 +31,3 @@ Designers & researchers are two peas in a pod. Good UX can be attributed to this
 
 #### Devs
 It’s imp to us that devs come along the user journey, understand user needs & co-create solutions
-
-#### Product
-Involve PMs in research activities to build the right product & share a compelling user story to the Partner
-
-#### Outreach
-Working together to tell the story of CDS Research and the people’s lives we help improve.
-
-### How we need your team's help
-
-### Commit to ensuring that items added to product backlog & sprint cycles are driven from real user research / and not team or partner assumptions 
-- Partners may not know why we do user research - work alongside your researcher to prove the value to them.
-- Fight to make sure you have a researcher on your team
-
-### Get out of the office, often enough - seriously.
-Nothing is more powerful than being in the field and listening to the end user tell you about their needs or how your product is not meeting them! 
-
-### Be a research champion - involve yourself + improve your research skills
-- Attend the bi-weekly Research Community Meetings on Wednesday mornings where we share research work and improve CDS internal capacity for design research
-- Hang out with us, let’s get coffee :) 
