@@ -24,10 +24,8 @@ Accessibility best practices can be complicated and change over time.
 ### How we work with others
 
 #### Policy
-We work closely. Policy team 1) clears the bureaucracy so we can do our jobs 2) informs us of the policy landscape
 
 #### Design
-Designers & researchers are two peas in a pod. Good UX can be attributed to this pairing.
 
 #### Devs
-It’s imp to us that devs come along the user journey, understand user needs & co-create solutions
+
