@@ -3,7 +3,7 @@ layout: page
 title:  "getting-accessibility-right"
 lang: en
 permalink: "/getting-accessibility-right/"
-category: "Best practices"
+category: "best practices"
 trans_url: "/fr-needed/"
 ---
 
