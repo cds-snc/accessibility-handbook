@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Getting-accessibility-right"
+title:  "Getting accessibility right"
 lang: en
 permalink: "/getting-accessibility-right/"
 category: "best practices"
