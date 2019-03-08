@@ -2,7 +2,7 @@
 layout: page
 title:  "Getting-accessibility-right"
 lang: en
-permalink: "/Getting-accessibility-right/"
+permalink: "/getting-accessibility-right/"
 category: "best practices"
 trans_url: "/fr-needed/"
 ---
