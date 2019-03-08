@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "accessibility principles"
+title:  "Accessibility principles"
 lang: en
 category: "Practical considerations"
-permalink: "/accessibility principles/"
+permalink: "/Accessibility principles/"
 trans_url: "/fr-needed/"
 ---
 
