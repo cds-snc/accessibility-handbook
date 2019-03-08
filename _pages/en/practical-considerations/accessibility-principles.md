@@ -3,7 +3,7 @@ layout: page
 title:  "Accessibility principles"
 lang: en
 category: "Practical considerations"
-permalink: "/Accessibility principles/"
+permalink: "/accessibility principles/"
 trans_url: "/fr-needed/"
 ---
 
