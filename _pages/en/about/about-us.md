@@ -7,6 +7,8 @@ permalink: "/about-us/"
 trans_url: "/fr-needed/"
 ---
 
+Please note all material found here is currently a work in progress and should be considered as draft material only.
+
 Accessiblity is the foundation to creating inclusive products, services, and systems that respond to human needs. 
 
 ### Who we are
