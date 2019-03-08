@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "getting-accessibility-right"
+title:  "Getting-accessibility-right"
 lang: en
-permalink: "/getting-accessibility-right/"
+permalink: "/Getting-accessibility-right/"
 category: "best practices"
 trans_url: "/fr-needed/"
 ---
