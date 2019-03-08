@@ -13,7 +13,6 @@ Accessiblity is the foundation to creating inclusive products, services, and sys
 
 #### Julianna Rowsell
 Accessibility and Inclusive Services Lead
-All-the-things
 
 
 ### What we do
