@@ -11,31 +11,16 @@ Design research is foundational to creating products, services, and systems that
 
 ### Who we are
 
-#### Colin MacArthur
-Head of Design Research 
+#### Julianna Rowsell
+Accessibility and Inclusive Services Lead
 All-the-things
 
-#### Mel Banyard
-Design Researcher
-Product: RCMP - Report a Cybercrime 
-
-#### Hillary Lorimer
-Design Researcher
-Product: CRA: Help Canadians w low income file taxes
-
-#### Mithula Naik
-Senior Design Researcher
-Product: Find relevant benefits for Veterans
 
 
 ### What we do
 Goal: Identify user needs that inform design (+dev)
 How
 - Planning research activities - helping frame the problem 
-- Conducting field research with end users - bringing the team along the user journey
-- Analyzing & synthesizing data - communicating the user story 
-- Evaluating & testing product improvements - helping build the right product
-Result: Products that better meet user needs
 
 ### How we work with others
 
