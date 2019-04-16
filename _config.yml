@@ -1,6 +1,6 @@
 # Site settings
-title: CDS Handbook
-description: A collection of accessibility best practices
+title: CDS Accessibility Handbook
+description: A collection of the best practices
 email:
 permalink: pretty
 author:
@@ -84,7 +84,7 @@ navigation:
   children:
   - children:
     - text: Principles of Accessibility
-      url: principles-accessibility/
+      url: principles-of-accessibility/
       internal: true
     - text: Baseline Testing Methodology
       url: baseline-testing/
@@ -92,8 +92,9 @@ navigation:
     - text: Open Accessibility Reports
       url: open-accessibility-report
       internal: true
+
 - text: Guides
-  url: Guides/
+  url: guides/
   internal: true
   generated: true
   children:
@@ -105,10 +106,11 @@ navigation:
       url: accessible-document/
       internal: true
     - text: How to Test for Accessibility 
-      url: how-to-test-for-aceessibility
+      url: how-to-test-for-aceessibility/
       internal: true
-  - text: Resources
-  url: Resources/
+
+- text: Resources
+  url: resources/
   internal: true
   generated: true
   children:
@@ -116,13 +118,9 @@ navigation:
     - text: Inclusive Design and Accessibility 101
       url: inclusive-design-and-accessibility-101/
       internal: true
-    - text: Service Design Barriers An Inclusive Overview
+    - text: Service Design Barriers
       url: service-design-barriers/
       internal: true
     - text: Accessibility Leadership
-      url: accessibility-leadership
+      url: accessibility-leadership/
       internal: true
- 
-
-
-
