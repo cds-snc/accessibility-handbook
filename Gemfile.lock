@@ -98,8 +98,5 @@ DEPENDENCIES
   redcarpet
   rouge
 
-RUBY VERSION
-   ruby 2.3.7p456
-
 BUNDLED WITH
-   2.0.1
+   1.16.6
