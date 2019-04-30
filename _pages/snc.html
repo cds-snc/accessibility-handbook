@@ -1,6 +1,6 @@
 ---
 title: Table of Contents
-permalink: '/'
+permalink: '/snc/'
 layout: null
 ---
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ layout: null
     <a class="a-skip-to-main" href="#main">Skip to main content</a>
     <header role="banner" class="site-header">
       <div class="wrapper">
-        <h1>{{site.data.translation.en.title}}</h1>
+        <h1>{{site.data.translation.fr.title}}</h1>
         <p>{{site.description}}</p>
         {% jekyll_pages_api_search_interface %}
       </div>
@@ -19,7 +19,7 @@ layout: null
       <div class="wrapper">
 
         <ol>
-        {% for nav in site.navigation %}
+        {% for nav in site.navigation_fr %}
         {% if nav.url == nil %}{% continue %}{% endif %}
           <li>
             <h1 id="{{ nav.url | remove:"/" }}">{{ nav.text }}</h1>
