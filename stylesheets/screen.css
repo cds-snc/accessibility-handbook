@@ -183,7 +183,7 @@ img { max-width: 100%; }
 
 .site-header form .field{
 	position: relative;
-	background-color: #dae0df;
+	background-color: #fff;
 	border-radius: 99em;
 }
 
@@ -249,7 +249,7 @@ input[type="search"]:focus::-webkit-search-cancel-button::after{
     bottom: 9px;
     top: auto;
     left: 10px;
-    color: white;
+    color: rgb(12, 9, 9);
 	position: absolute;
 	margin-top: -0.5em;
 }
