@@ -38,7 +38,7 @@ collections:
     permalink: /:path/
 
 # Google Analytics tracking code for handbook
-google_analytics_ua: UA-48605964-19
+google_analytics_ua: UA-102484926-12
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
