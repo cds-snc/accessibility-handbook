@@ -7,10 +7,11 @@ author:
   name: 
   email: 
 
+# GitHub repo Variables
 github:
-  organization: 
-  repository: 
-  default_branch: 
+  organization: cds-snc
+  repository: accessibility-handbook
+  default_branch: master
 
 exclude:
 - CONTRIBUTING.md
@@ -65,40 +66,3 @@ flat_namespace: true
 jekyll_get:
   - data: dgcommunities
     json: 'https://digital.gov/communities/index.json'
-
-navigation:
-- text: Table of Contents
-  internal: true
-- text: Welcome to CDS Accessibility Handbook
-  blurb: |
-    Here's what you need to know in your first week.
-  url: welcome/
-  internal: true
-  generated: true
-  children:
-  - children:
-    - text: Welcome
-      url: welcome-letter/
-      internal: true
-    - text: Benefits
-      url: benefits/
-      internal: true
-
-
-navigation_fr:
-- text: table des matières
-  internal: true
-- text: Bienvenue dans le manuel d'accessibilité de la CDS
-  blurb: |
-    
-  url: bienvenue/
-  internal: true
-  generated: true
-  children:
-  - children:
-    - text: lettre de bienvenue
-      url: lettre-de-bienvenue/
-      internal: true
-    - text: avantages
-      url: avantages/
-      internal: true

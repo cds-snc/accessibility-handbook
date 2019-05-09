@@ -19,7 +19,7 @@ layout: null
       <div class="wrapper">
 
         <ol>
-        {% for nav in site.data.menu.navigation %}
+        {% for nav in site.data.menu.en %}
         {% if nav.url == nil %}{% continue %}{% endif %}
           <li>
             <h1 id="{{ nav.url | remove:"/" }}">{{ nav.text }}</h1>
