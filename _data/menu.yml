@@ -1,5 +1,5 @@
 
-navigation:
+en:
 - text: Table of Contents
   internal: true
 - text: Welcome to CDS Accessibility Handbook
@@ -18,7 +18,7 @@ navigation:
       internal: true
 
 
-navigation_fr:
+fr:
 - text: table des matières
   internal: true
 - text: Bienvenue dans le manuel d'accessibilité de la CDS
