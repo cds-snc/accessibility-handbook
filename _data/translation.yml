@@ -1,0 +1,16 @@
+en:
+  title: "CDS Handbook Alpha"
+  charter: "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurring the lines between research, development, design, and accessibility.<br> <br>
+  Inclusivity is a high priority in all of our work. Ensuring that everyone can interact with our services in a way that meets their individual needs and promotes their independence and dignity is important to us. Our goal is to make it better than it was yesterday. <br><br>
+  We have drafted these guiding principles for creating accessible and inclusive services within the Canadian Digital Services and with our partners. These are a consistent set of guidelines for making content accessible for people with disabilities."
+  cds-snc: "Canadian Digital Service"  
+  language: "Français"
+  homepage-slug: "/home/"
+  site-name: "CDS Accessibility Handbook"
+
+fr:
+  title: "SNC manuel"
+  cds-snc: "Service numérique canadien"
+  language: "English"
+  homepage-slug: "/accueil/"
+ 

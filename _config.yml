@@ -1,20 +1,16 @@
 # Site settings
-title: CDS Accessibility Handbook
-description: A collection of the best practices
+title: CDS Handbook Alpha
+description: 
 email:
 permalink: pretty
 author:
-  name: Julianna Rowsell
-  email: julianna.rowsell@cds-snc.ca
-
-slack:
-  organization: Canadian Digital Service
-  channel: handbook
+  name: 
+  email: 
 
 github:
-  organization: CDS
-  repository: handbook
-  default_branch: master
+  organization: 
+  repository: 
+  default_branch: 
 
 exclude:
 - CONTRIBUTING.md
@@ -42,7 +38,7 @@ collections:
     permalink: /:path/
 
 # Google Analytics tracking code for handbook
-# google_analytics_ua: 
+google_analytics_ua: UA-48605964-19
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
@@ -71,56 +67,38 @@ jekyll_get:
     json: 'https://digital.gov/communities/index.json'
 
 navigation:
-- text: Accessibility Charter 
+- text: Table of Contents
+  internal: true
+- text: Welcome to CDS Accessibility Handbook
   blurb: |
-    <br>The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurring the lines between research, development, design, and accessibility. <br><br> Inclusivity is a high priority in all of our work. Ensuring that everyone can interact with our services in a way that meets their individual needs and promotes their independence and dignity is important to us. Our goal is to make it better than it was yesterday. <br> <br>We have drafted these guiding principles for creating accessible and inclusive services within the Canadian Digital Services and with our partners. These are a consistent set of guidelines for making content accessible for people with disabilities. 
-  url: about-us/
-  internal: true
-  generated: true
-- text: Our Commitment 
-  url: our-commitment/
+    Here's what you need to know in your first week.
+  url: welcome/
   internal: true
   generated: true
   children:
   - children:
-    - text: Principles of Accessibility
-      url: principles-of-accessibility/
+    - text: Welcome
+      url: welcome-letter/
       internal: true
-    - text: Baseline Testing Methodology
-      url: baseline-testing/
-      internal: true
-    - text: Open Accessibility Reports
-      url: open-accessibility-report
+    - text: Benefits
+      url: benefits/
       internal: true
 
-- text: Guides
-  url: guides/
-  internal: true
-  generated: true
-  children:
-  - children:
-    - text: Accessible Presentations
-      url: accessible-presentation/
-      internal: true
-    - text: Accessible Documents
-      url: accessible-document/
-      internal: true
-    - text: How to Test for Accessibility 
-      url: how-to-test-for-aceessibility/
-      internal: true
 
-- text: Resources
-  url: resources/
+navigation_fr:
+- text: table des matières
+  internal: true
+- text: Bienvenue dans le manuel d'accessibilité de la CDS
+  blurb: |
+    
+  url: bienvenue/
   internal: true
   generated: true
   children:
   - children:
-    - text: Inclusive Design and Accessibility 101
-      url: inclusive-design-and-accessibility-101/
+    - text: lettre de bienvenue
+      url: lettre-de-bienvenue/
       internal: true
-    - text: Service Design Barriers
-      url: service-design-barriers/
-      internal: true
-    - text: Accessibility Leadership
-      url: accessibility-leadership/
+    - text: avantages
+      url: avantages/
       internal: true
