@@ -3,7 +3,8 @@
 
   ],
   "buildpacks": [
-
+    "heroku/ruby",
+    "heroku/nodejs"
   ],
   "env": {
   },
