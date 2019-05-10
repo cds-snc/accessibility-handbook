@@ -1,10 +1,7 @@
 {
   "addons": [
-
   ],
   "buildpacks": [
-    {"url": "heroku/ruby"},
-    {"url": "heroku/nodejs"}
   ],
   "env": {
   },
@@ -13,5 +10,5 @@
   "name": "accessibility-handbook",
   "scripts": {
   },
-  "stack": "heroku-18"
+  "stack": "container"
 }
