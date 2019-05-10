@@ -18,4 +18,4 @@ ADD . $app
 # Set some other necessary ENVs
 ENV LC_ALL=C.UTF-8
 
-CMD bundle exec jekyll serve --host 0.0.0.0 --incremental --port $PORT
+CMD bundle exec jekyll serve --host 0.0.0.0 --port $PORT
