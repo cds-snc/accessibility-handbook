@@ -21,6 +21,7 @@ exclude:
 - README.md
 - go
 - vendor
+- app.json
 
 sass:
   style: :compressed
