@@ -12,5 +12,5 @@
   "name": "accessibility-handbook",
   "scripts": {
   },
-  "stack": "heroku-18"
+  "stack": "container"
 }
