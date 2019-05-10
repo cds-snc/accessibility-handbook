@@ -1,0 +1,19 @@
+{
+  "name": "accessibility-handbook",
+  "version": "1.0.0",
+  "description": "### With Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cds-snc/accessibility-handbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cds-snc/accessibility-handbook/issues"
+  },
+  "homepage": "https://github.com/cds-snc/accessibility-handbook#readme"
+}
