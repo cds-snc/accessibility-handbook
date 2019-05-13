@@ -1,6 +1,7 @@
 <header class="site-header">
   <div class="wrapper">
-    <h1 class="logo"><a href="{{site.baseurl}}/">{{site.title}}</a></h1>
+    <h1 class="logo"><a href="{{site.baseurl}}/">{{ site.data.translation[page.lang].title }}</a></h1>
     {% jekyll_pages_api_search_interface %}
+    <a class="lang-toggle" href="{{ page.trans_url }}">English</a>
   </div>
 </header>
