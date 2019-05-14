@@ -59,6 +59,20 @@ a:visited{  color: #8d0058; }
 	color:#000;
 }
 
+.gc-logo-page img{
+	height: 25px;
+	float: left;
+	margin: 14px;
+	padding-left: 40px;
+}
+.lang-toggle-page{
+	float:right;
+	margin-right:20px;
+	margin-top: 15px;
+	padding-right:100px;
+	color:#000;
+}
+
 a.toggle, a.toggle:visited{
 	color:#000;
 }
@@ -70,6 +84,11 @@ a.toggle, a.toggle:visited{
 
 .logo img{
 	height:52px;
+}
+
+ul li{
+	display: inline;
+	border:1px solid red;
 }
 
 a.title-link span.tag, span.tag {    
