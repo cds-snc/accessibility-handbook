@@ -41,31 +41,51 @@ a:visited{  color: #8d0058; }
 ::-moz-selection {
   background: #ffe4c5; /* Gecko Browsers */
 }
-
-.sub-heading {
-	background-color: #000;
-	padding-top: 27px;
-	padding-left: 20px;
-	float:none;
-	width:100%;
+.gc-banner{
+	height:54px;
 }
-.sub-heading a{
+
+.gc-logo img{
+	height: 25px;
+	float: left;
+	margin: 14px;
+	padding-left: 130px;
+}
+.lang-toggle{
+	float:right;
+	margin-right:20px;
+	margin-top: 15px;
+	padding-right:130px;
+	color:#000;
+}
+
+a.toggle, a.toggle:visited{
+	color:#000;
+}
+
+.site_title a.title-link{
 	color:#fff;
+	border-bottom:none;
 }
 
 .logo img{
-	width:62px;
+	height:52px;
 }
 
-.lang-toggle{
-	position: absolute;
-	right: 10px;
-	left: auto;
-	top: 10px;
+a.title-link span.tag, span.tag {    
+	font-size: 14pt;
+	color: white;
+	font-weight: 700;
+	margin-left: 0.5rem;
+	background: rgb(249, 2, 119);
+	border-radius: 0.5rem;
+	padding: 0.2rem 0.8rem;
+	vertical-align: bottom;
 }
 
-a.lang-toggle, a.lang-toggle:visited{
-	color:#fff;
+.float-right  a.toggle:visited {
+	color: #fff;
+	text-decoration: none;
 }
 
 .wrapper{
@@ -324,17 +344,10 @@ input[type="search"]:focus::-webkit-search-cancel-button::after{
 
 @media screen and (min-width: 568.88px){
 	.site-header .logo{
-		float: left;
-		margin-bottom: 0;
-		white-space: nowrap;
-		overflow: hidden;
-	}
-
-	.lang-toggle{
-		position: absolute;
-		right: 0;
-		left: auto;
-		top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 640px;
+    margin: 0 auto;
 	}
 
 	.site-header .search-interface,
@@ -1011,11 +1024,11 @@ a[id]{
 
 	@media screen and (min-width:568.88px){
 		.layout-table-of-contents .site-header{
-			padding-top: 0;
+			padding-top: 3em;
 			padding-bottom: 2em;
 		}
 		.layout-table-of-contents .site-header h1{ font-size: 40px; }
-		.layout-table-of-contents .site-header form{ margin-top: 14px; }
+		.layout-table-of-contents .site-header form{ margin-top: 8px; }
 		.layout-table-of-contents .site-header p{
 			font-size: 20px;
 			line-height: 1.4em;
