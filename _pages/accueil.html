@@ -8,19 +8,18 @@ layout: null
   {% include head.html %}
   <body class="layout-table-of-contents">
     <a class="a-skip-to-main" href="#main">Skip to main content</a>
-    <div class="sub-heading">
-        <div>
-          <a class="toggle" href="/">English</a>
-        </div>
-        <div class="logo"><img alt="cds-snc logo" src="../stylesheets/images/svg/cds-snc-logo.svg" >
-        </div>
+    <div class="gc-banner">
+        <div class="gc-logo"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
+        <div class="lang-toggle"> <a class="toggle" href="{{site.baseurl}}/">English</a></div>
       </div>
     <header role="banner" class="site-header">
       <div class="wrapper">
-        <h1>{{site.data.translation.fr.title}}</h1>
+        <h1>{{site.data.translation.fr.title}} <span class="tag">{{site.data.translation.fr.software-version}}</span></h1>
         <p>{{site.description}}</p>
         {% jekyll_pages_api_search_interface %}
       </div>
+      <div class="logo"><img alt="cds-snc logo" src="../stylesheets/images/svg/cds-lockup-ko-en.svg" ></div>
+
     </header>
     <main id="main" role="main">
       <div class="wrapper">
