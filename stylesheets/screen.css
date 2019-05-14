@@ -75,7 +75,7 @@ a.toggle, a.toggle:visited{
 a.title-link span.tag, span.tag {    
 	font-size: 14pt;
 	color: white;
-	font-weight: 700;
+	font-weight: 600;
 	margin-left: 0.5rem;
 	background: rgb(249, 2, 119);
 	border-radius: 0.5rem;
@@ -184,7 +184,6 @@ main{
 	text-decoration: none;
 	line-height: 40px;
 	letter-spacing: -1px;
-	text-shadow: 0 -1px 0 #686969;
 }
 
 .site-header form,
@@ -257,7 +256,6 @@ input[type="search"]:focus::-webkit-search-cancel-button::after{
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    text-shadow: -1px -1px 1px rgba(0,0,0,0.02);
     line-height: 1;
     position: absolute;
     bottom: 9px;
@@ -1003,8 +1001,7 @@ a[id]{
 		padding-bottom: 0.33em;
 		display: block;
 		letter-spacing: -0.03em;
-		text-shadow: rgba(0,99,173,0.5) 2px 2px 0;
-		max-width: 640px;
+  	max-width: 640px;
 		margin: 0 auto;
 		position: relative;
 		left: -0.05em;
