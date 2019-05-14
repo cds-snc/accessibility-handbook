@@ -1,14 +1,6 @@
 
 ## Development
 
-### With Docker
-
-```
-docker-compose up
-```
-
-### Without Docker
-
 Install dependencies:
 
 ```bash
