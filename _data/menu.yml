@@ -11,7 +11,7 @@ en:
   children:
   - children:
     - text: Welcome
-      url: welcome-letter/
+      url: welcome/
       internal: true
     - text: Benefits
       url: benefits/
@@ -30,7 +30,7 @@ fr:
   children:
   - children:
     - text: lettre de bienvenue
-      url: lettre-de-bienvenue/
+      url: bienvenue/
       internal: true
     - text: avantages
       url: avantages/
