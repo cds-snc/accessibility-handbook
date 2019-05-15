@@ -30,6 +30,48 @@ a:hover{ color: #00aedf; }
 
 a:visited{  color: #8d0058; }
 
+
+
+/*
+Helpers
+==================================
+*/
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable
+* when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible {
+	visibility: hidden;
+}
+
 .a-skip-to-main{
 	position: absolute;
 	left: -9999em;
@@ -71,6 +113,27 @@ a:visited{  color: #8d0058; }
 	margin-top: 15px;
 	padding-right:100px;
 	color:#000;
+}
+
+.accessible-nav {
+	display: block;
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+a.skip-link {
+	color: #fff;
+	border-bottom: none;
+	padding: .25em;
+}
+
+a.skip-link:hover,
+a.skip-link:active,
+a.skip-link:focus {
+	background-color: #000;
+	color: #fff;
+	border-bottom: none;
 }
 
 a.toggle, a.toggle:visited{

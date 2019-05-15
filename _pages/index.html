@@ -8,7 +8,9 @@ layout: null
 <html lang="en">
   {% include head.html %}
   <body class="layout-table-of-contents">
-    <a class="a-skip-to-main" href="#main">Skip to main content</a>
+    <div class="accessible-nav">
+        <a class="skip-link visuallyhidden focusable" href="#main">Skip to main content</a>
+    </div>
         <div class="gc-banner">
           <div class="gc-logo"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
           <div class="lang-toggle"> <a class="toggle" href="{{site.baseurl}}/accueil">Français</a></div>
