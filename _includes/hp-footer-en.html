@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <nav>
+      <a href="{{ site.baseurl}}/nav-tips/" class="button button-nav-tips">{{ site.data.translation.en.navigation-tips-bt }}</a>
+      <a class="button button-edit" href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/edit/{{ site.github.default_branch }}/{{ page.path }}">{{ site.data.translation.en.edit-this-bt }}</a>
+      <a class="button button-issue" href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/issues/">{{ site.data.translation.en.file-an-issue-bt }}</a>
+    </nav>
+  </div>
+</footer>
+
+{% guides_style_18f_include analytics.html %}
+
+{% jekyll_pages_api_search_load %}
