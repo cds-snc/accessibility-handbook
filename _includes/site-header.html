@@ -1,7 +1,15 @@
+<div class="gc-banner">
+    <div class="gc-logo-page"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
+    <div class="lang-toggle-page"> <a class="toggle" href="{{ page.trans_url }}">Français</a></div>
+</div>
 <header class="site-header">
   <div class="wrapper">
-    <h1 class="logo"><a class="title-link" href="{{site.baseurl}}/">{{ site.data.translation[page.lang].title }} <span class="tag">Alpha</span></a></h1>
-    {% jekyll_pages_api_search_interface %}
-    <a class="lang-toggle" href="{{ page.trans_url }}">English</a>
+    <div lass="page-logo">
+      <h1>
+        <a class="title-link" href="{{ site.baseurl }}/">{{ site.data.translation[page.lang].title }}
+          <span class="tag">Alpha</span></a>
+      </h1>
+    </div>
+    <div class="page-search">{% jekyll_pages_api_search_interface %}</div>
   </div>
 </header>
