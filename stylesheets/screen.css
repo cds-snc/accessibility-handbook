@@ -1130,9 +1130,9 @@ a[id]{
 	font-weight: 600;
 	padding-top: 1em;
 	margin-bottom: 0.4em;
-	border-top: 0.2em solid #f2f0e3;
+	border-top: 0.2em solid #e6e6e3;
 	margin-top: 1em;
-	color: #51322a;
+	color: #000;
 }
 
 .layout-table-of-contents ol li:first-of-type h1{

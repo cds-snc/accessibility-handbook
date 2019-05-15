@@ -11,6 +11,9 @@ en:
   language: "Français"
   homepage-slug: "/home/"
   site-name: "CDS Accessibility Handbook"
+  file-an-issue-bt: File an issue 
+  edit-this-bt: Edit this page
+  navigation-tips-bt: Navigation tips
 
 fr:
   title: "SNC manuel"
@@ -18,4 +21,8 @@ fr:
   cds-snc: "Service numérique canadien"
   language: "English"
   homepage-slug: "/accueil/"
+  file-an-issue-bt: déposer un problème
+  edit-this-bt: Modifier cette page
+  navigation-tips-bt: Conseils de navigation
+
  
