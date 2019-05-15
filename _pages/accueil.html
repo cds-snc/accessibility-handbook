@@ -7,11 +7,13 @@ layout: null
 <html lang="en">
   {% include head.html %}
   <body class="layout-table-of-contents">
-    <a class="a-skip-to-main" href="#main">Skip to main content</a>
+    <div class="accessible-nav">
+      <a class="skip-link visuallyhidden focusable" href="#main">Passer au contenu principal</a>
+    </div>    
     <div class="gc-banner">
-        <div class="gc-logo"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
-        <div class="lang-toggle"> <a class="toggle" href="{{site.baseurl}}/">English</a></div>
-      </div>
+      <div class="gc-logo"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
+      <div class="lang-toggle"> <a class="toggle" href="{{site.baseurl}}/">English</a></div>
+    </div>
     <header role="banner" class="site-header">
       <div class="wrapper">
         <h1>{{site.data.translation.fr.title}} <span class="tag">{{site.data.translation.fr.software-version}}</span></h1>
