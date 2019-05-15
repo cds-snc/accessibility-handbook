@@ -130,7 +130,29 @@ img.travel-guide-hide{
   .wrapper,
   .page .wrapper
 	{ width: 90%; }
-	
+
+	.site-header .logo {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 640px;
+		margin: 0 auto;
+		width:90%;
+		padding-top: 6%;
+}
+
+.gc-logo img {
+	height: 17px;
+	float: left;
+	margin: 19px;
+	padding-left: 1px;
+}
+
+.lang-toggle {
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+	padding-right: 20px;
+}
 
 .wrapper::after{
 	content: "";
@@ -364,7 +386,7 @@ input[type="search"]:focus::-webkit-search-cancel-button::after{
     white-space: nowrap;
     overflow: hidden;
     max-width: 640px;
-    margin: 0 auto;
+		margin: 0 auto;
 	}
 
 	.site-header .search-interface,
