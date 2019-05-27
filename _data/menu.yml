@@ -2,89 +2,125 @@
 en:
 - text: Table of Contents
   internal: true
-- text: Charter
+- text: 
   blurb: |
-   The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurring the lines between research, development, design, and accessibility.<br> <br>Inclusivity is a high priority in all of our work. Ensuring that everyone can interact with our services in a way that meets their individual needs and promotes their independence and dignity is important to us. Our goal is to make it better than it was yesterday. <br><br> We have drafted these guiding principles for creating accessible and inclusive services within the Canadian Digital Services and with our partners. These are a consistent set of guidelines for making content accessible for people with disabilities.
-  url: charter/
-  internal: true
-  generated: true
-
-
-- text: Commitmment
-  blurb: |
-  url: baseline-testing/
+  url: accessiblity-matters/
   internal: true
   generated: true
   children:
   - children:
-    - text: Baseline Testing
-      url: baseline-testing/
+    - text: Accessibility matters
+      url: accessibility-matters/
       internal: true
-    - text: Open Accessibility report
-      url: open-accessibility-report/
+    - text: Accessibility at CDS
+      url: accessibility-at-cds/
       internal: true
-    - text: Principals of Accessibility
-      url: principals-of-accessibility/
+    - text: How to make it accessible
+      url: how-to-make-it-accessible/
+      internal: true
+    - text: Keep it accessible
+      url: keep-it-accessible/
       internal: true
 
-- text: Guide
-  blurb: |
-  url: accessible-document/
-  internal: true
-  generated: true
-  children:
-  - children:
-    - text: Accessible Document
-      url: accessible-document/
-      internal: true
-    - text: Accessible Presentation
-      url: accessible-presentation/
-      internal: true
-    - text: How to test for Accessibility
-      url: how-to-test-for-accessibility/
-      internal: true
+# - text: Table of Contents
+#   internal: true
+# - text: Commitmment
+#   blurb: |
+#   url: baseline-testing/
+#   internal: true
+#   generated: true
+#   children:
+#   - children:
+#     - text: Baseline Testing
+#       url: baseline-testing/
+#       internal: true
+#     - text: Open Accessibility report
+#       url: open-accessibility-report/
+#       internal: true
+#     - text: Principals of Accessibility
+#       url: principals-of-accessibility/
+#       internal: true
+
+# - text: Guide
+#   blurb: |
+#   url: accessible-document/
+#   internal: true
+#   generated: true
+#   children:
+#   - children:
+#     - text: Accessible Document
+#       url: accessible-document/
+#       internal: true
+#     - text: Accessible Presentation
+#       url: accessible-presentation/
+#       internal: true
+#     - text: How to test for Accessibility
+#       url: how-to-test-for-accessibility/
+#       internal: true
 
 
 fr:
 - text: table des matières
   internal: true
-- text: Charte
+- text: 
   blurb: |
-    Le Service numérique canadien s'est engagé à créer des services accessibles et inclusifs. Construire des services accessibles signifie répondre aux besoins du plus grand nombre de personnes possible. Dès le début, nous travaillons avec les personnes qui utiliseront un produit, y compris les personnes handicapées. Nous travaillons dans toutes les disciplines - nous effaçons les frontières entre recherche, développement, conception et accessibilité.<br><br>L’inclusion est une grande priorité dans tous nos travaux. Pour nous, il est important que chacun puisse interagir avec nos services de manière à répondre à ses besoins personnels et à promouvoir son indépendance et sa dignité. Notre objectif est de le rendre meilleur qu’hier.<br><br>Nous avons rédigé ces principes directeurs pour la création de services accessibles et inclusifs au sein des Services numériques canadiens et avec nos partenaires. Il s’agit d’un ensemble cohérent de directives visant à rendre le contenu accessible aux personnes handicapées.  
   url: charte/
   internal: true
   generated: true
-
-- text: Engagement
-  blurb: |
-  url: essais-de-base/
-  internal: true
-  generated: true
   children:
   - children:
-    - text: Essais de base
-      url: essais-de-base/
+    - text: L'accessibilité compte
+      url: l-accessibilite-compte/
       internal: true
-    - text: Rapport d'accessibilité ouvert
-      url: rapport-d-accessibilite-ouvert/
+    - text: Accessibilité à SNC
+      url: accessibilite-a-snc/
       internal: true
-    - text: Principes d'accessibilité
-      url:  principes-d-accessibilite/
+    - text: Comment le rendre accessible
+      url: comment-le-rendre-accessible/
+      internal: true
+    - text: Gardez-le accessible
+      url: gardez-le-accessible/
       internal: true
 
-- text: Guider
-  blurb: |
-  url: document-accessible/
-  internal: true
-  generated: true
-  children:
-  - children:
-    - text: Document accessible
-      url: document-accessible/
-      internal: true
-    - text: Présentation accessible
-      url: presentation-accessible/
-      internal: true
-    - text: Comment tester l'accessibilité
-      url: comment-tester-l-accessibilite/
-      internal: true
+# - text: table des matières
+#   internal: true
+# - text: 
+#   blurb: |
+#     Le Service numérique canadien s'est engagé à créer des services accessibles et inclusifs. Construire des services accessibles signifie répondre aux besoins du plus grand nombre de personnes possible. Dès le début, nous travaillons avec les personnes qui utiliseront un produit, y compris les personnes handicapées. Nous travaillons dans toutes les disciplines - nous effaçons les frontières entre recherche, développement, conception et accessibilité.<br><br>L’inclusion est une grande priorité dans tous nos travaux. Pour nous, il est important que chacun puisse interagir avec nos services de manière à répondre à ses besoins personnels et à promouvoir son indépendance et sa dignité. Notre objectif est de le rendre meilleur qu’hier.<br><br>Nous avons rédigé ces principes directeurs pour la création de services accessibles et inclusifs au sein des Services numériques canadiens et avec nos partenaires. Il s’agit d’un ensemble cohérent de directives visant à rendre le contenu accessible aux personnes handicapées.  
+#   url: charte/
+#   internal: true
+#   generated: true
+
+# - text: Engagement
+#   blurb: |
+#   url: essais-de-base/
+#   internal: true
+#   generated: true
+#   children:
+#   - children:
+#     - text: Essais de base
+#       url: essais-de-base/
+#       internal: true
+#     - text: Rapport d'accessibilité ouvert
+#       url: rapport-d-accessibilite-ouvert/
+#       internal: true
+#     - text: Principes d'accessibilité
+#       url:  principes-d-accessibilite/
+#       internal: true
+
+# - text: Guider
+#   blurb: |
+#   url: document-accessible/
+#   internal: true
+#   generated: true
+#   children:
+#   - children:
+#     - text: Document accessible
+#       url: document-accessible/
+#       internal: true
+#     - text: Présentation accessible
+#       url: presentation-accessible/
+#       internal: true
+#     - text: Comment tester l'accessibilité
+#       url: comment-tester-l-accessibilite/
+#       internal: true
