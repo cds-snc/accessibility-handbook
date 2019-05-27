@@ -188,6 +188,15 @@ span.tag {
   position: relative;
 }
 
+.wrapper .body-content{
+  height:270px;
+}
+
+.body-content img{
+  height:270px;
+  float:right;
+}
+
   .site-header .logo {
     white-space: nowrap;
     overflow: hidden;
@@ -1189,7 +1198,7 @@ nav.nav-main ol li a:hover {
   padding-top: 1em;
 }
 
-.section-box{
+.section-box {
   border:4px solid #000;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -1198,6 +1207,10 @@ nav.nav-main ol li a:hover {
 
 .section-box a{
   color: #000;
+  font-weight: 700;
+  font-size:1.1em;
+  text-decoration: none;
+
 }
 
 .toc-nav-children-level-4 {
