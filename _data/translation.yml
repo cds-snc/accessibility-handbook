@@ -1,8 +1,5 @@
 en:
-  charter: "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurring the lines between research, development, design, and accessibility.<br> <br>
-  Inclusivity is a high priority in all of our work. Ensuring that everyone can interact with our services in a way that meets their individual needs and promotes their independence and dignity is important to us. Our goal is to make it better than it was yesterday. <br><br>
-  We have drafted these guiding principles for creating accessible and inclusive services within the Canadian Digital Services and with our partners. These are a consistent set of guidelines for making content accessible for people with disabilities."
-  title: "CDS Handbook"
+  title: "Welcome to CDS Accessibility Handbook"
   software-version: Alpha
   charter: "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurring the lines between research, development, design, and accessibility.<br> <br>
   Inclusivity is a high priority in all of our work. Ensuring that everyone can interact with our services in a way that meets their individual needs and promotes their independence and dignity is important to us. Our goal is to make it better than it was yesterday. <br><br>
@@ -16,8 +13,9 @@ en:
   navigation-tips-bt: Navigation tips
 
 fr:
-  title: "SNC manuel"
+  title: "Bienvenue dans le manuel d'accessibilité de la SNC"
   software-version: Alpha
+  charter: "Le Service numérique canadien s'est engagé à créer des services accessibles et inclusifs. Construire des services accessibles signifie répondre aux besoins du plus grand nombre de personnes possible. Dès le début, nous travaillons avec les personnes qui utiliseront un produit, y compris les personnes handicapées. Nous travaillons dans toutes les disciplines - nous effaçons les frontières entre recherche, développement, conception et accessibilité.<br><br>L’inclusion est une grande priorité dans tous nos travaux. Pour nous, il est important que chacun puisse interagir avec nos services de manière à répondre à ses besoins personnels et à promouvoir son indépendance et sa dignité. Notre objectif est de le rendre meilleur qu’hier.<br><br>Nous avons rédigé ces principes directeurs pour la création de services accessibles et inclusifs au sein des Services numériques canadiens et avec nos partenaires. Il s’agit d’un ensemble cohérent de directives visant à rendre le contenu accessible aux personnes handicapées."
   cds-snc: "Service numérique canadien"
   language: "English"
   homepage-slug: "/accueil/"

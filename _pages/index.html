@@ -17,8 +17,6 @@ layout: null
         </div>
     <header role="banner" class="site-header">
       <div class="wrapper">
-        <h1>{{site.data.translation.en.title}} <span class="tag">{{site.data.translation.en.software-version}}</span></a></h1>
-        <p>{{site.description}}</p>
         {% jekyll_pages_api_search_interface %}
       </div>
       <div class="logo"><img alt="cds-snc logo" src="../stylesheets/images/svg/cds-lockup-ko-en.svg" ></div>
@@ -26,7 +24,8 @@ layout: null
     </header>
     <main id="main" role="main">
       <div class="wrapper">
-
+        <h1 class="headline">{{site.data.translation.en.title}} <span class="tag">{{site.data.translation.en.software-version}}</span></a></h1>
+        <p>{{site.data.translation.en.charter}}</p>
         <ol>
         {% for nav in site.data.menu.en %}
         {% if nav.url == nil %}{% continue %}{% endif %}
