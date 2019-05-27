@@ -189,7 +189,7 @@ span.tag {
 }
 
 .wrapper .body-content{
-  height:270px;
+  display: block;
 }
 
 .body-content img{
@@ -465,6 +465,10 @@ span.tag {
     padding-bottom: 2em;
     color: #555;
     background: #f8f8f8;
+  }
+
+  .site-footer .footer-heading{
+    float:left;
   }
 
   .site-footer nav::after {
@@ -1199,17 +1203,18 @@ nav.nav-main ol li a:hover {
 }
 
 .section-box {
-  border:4px solid #000;
-  padding-top: 30px;
-  padding-bottom: 50px;
   text-align: center;
 }
 
 .section-box a{
   color: #000;
   font-weight: 700;
-  font-size:1.1em;
+  font-size: 1.3em;
   text-decoration: none;
+  word-break: break-word;
+  border: 4px solid #000;
+  display: block;
+  padding: 1.2em;
 
 }
 
@@ -1235,7 +1240,7 @@ nav.nav-main ol li a:hover {
 
 .layout-table-of-contents .wrapper ol li {
   font-weight: normal;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 711.11px) {

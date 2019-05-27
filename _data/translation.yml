@@ -11,6 +11,7 @@ en:
   file-an-issue-bt: File an issue 
   edit-this-bt: Edit this page
   navigation-tips-bt: Navigation tips
+  footer-heading: Using the handbook and reporting issues
 
 fr:
   title: "Bienvenue dans le manuel d'accessibilité de la SNC"
@@ -22,5 +23,8 @@ fr:
   file-an-issue-bt: déposer un problème
   edit-this-bt: Modifier cette page
   navigation-tips-bt: Conseils de navigation
+  footer-heading: Utilisation du manuel et problèmes de rapport
+
+
 
  
