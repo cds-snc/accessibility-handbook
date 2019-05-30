@@ -9,17 +9,17 @@ en:
   generated: true
   children:
   - children:
-    - text: Accessibility matters
-      url: accessibility-matters/
+    - text: Our Commitment
+      url: our-commitment/
       internal: true
-    - text: Accessibility at CDS
-      url: accessibility-at-cds/
+    - text: Accessibility Services at CDS
+      url: accessibility-services-at-cds/
       internal: true
-    - text: How to make it accessible
+    - text: How to make it Accessible
       url: how-to-make-it-accessible/
       internal: true
-    - text: Keep it accessible
-      url: keep-it-accessible/
+    - text: Tools and Resources
+      url: tools-and-resources/
       internal: true
 
 # - text: Table of Contents
@@ -69,17 +69,17 @@ fr:
   generated: true
   children:
   - children:
-    - text: L'accessibilité compte
-      url: l-accessibilite-compte/
+    - text: Notre engagement
+      url: notre-engagement/
       internal: true
-    - text: Accessibilité à SNC
-      url: accessibilite-a-snc/
+    - text: Services d'accessibilité à snc
+      url: services-d-accessibilite-a-snc/
       internal: true
     - text: Comment le rendre accessible
       url: comment-le-rendre-accessible/
       internal: true
-    - text: Gardez-le accessible
-      url: gardez-le-accessible/
+    - text: outils et ressources
+      url: outils-et-ressources/
       internal: true
 
 # - text: table des matières
