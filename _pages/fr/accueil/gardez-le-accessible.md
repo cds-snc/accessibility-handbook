@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Gardez-le accessible
+title: Comment le rendre accessible
 lang: fr
 category: "accueil"
-permalink: "/gardez-le-accessible/"
-trans_url: "/keep-it-accessible/"
+permalink: "/comment-le-rendre-accessible/"
+trans_url: "/how-to-make-it-accessible/"
 tags:
 - principals
 - accessibility

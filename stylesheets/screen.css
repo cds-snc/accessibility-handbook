@@ -160,11 +160,6 @@ a.toggle:visited {
   height: 52px;
 }
 
-ul li {
-  display: inline;
-  border: 1px solid red;
-}
-
 a.title-link span.tag,
 span.tag {
   font-size: 14pt;
@@ -766,7 +761,7 @@ span.tag {
     font-size: 21px;
     line-height: 1.3em;
     font-family: Merriweather, Georgia;
-    color: #c56815;
+    color: #ffbf51;
     margin: 28px 0 16px;
   }
 
@@ -1211,7 +1206,6 @@ nav.nav-main ol li a:hover {
   font-weight: 700;
   font-size: 1.3em;
   text-decoration: none;
-  word-break: break-word;
   border: 4px solid #000;
   display: block;
   padding: 1.2em;
