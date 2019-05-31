@@ -1,15 +1,15 @@
-<div class="gc-banner">
-    <div class="gc-logo-page"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
-    <div class="lang-toggle-page"> <a class="toggle" href="{{ page.trans_url }}">Français</a></div>
+
+<div class="accessible-nav">
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to main content</a>
+  <a class="skip-link visuallyhidden focusable" href="#footer">Skip to the footer content</a>
 </div>
-<header class="site-header">
-  <div class="wrapper">
-    <div lass="page-logo">
-      <h1>
-        <a class="title-link" href="{{ site.baseurl }}/">{{ site.data.translation[page.lang].title }}
-          <span class="tag">Alpha</span></a>
-      </h1>
-    </div>
-    <div class="page-search">{% jekyll_pages_api_search_interface %}</div>
+  <div class="gc-banner">
+    <div class="gc-logo"><img src="../stylesheets/images/svg/sig-blk-en.svg"/></div>
+    <div class="lang-toggle"> <a class="toggle" href="{{site.baseurl}}/accueil">Français</a></div>
   </div>
+<header role="banner" class="site-header">
+<div class="wrapper">
+  {% jekyll_pages_api_search_interface %}
+  <div class="logo"><img alt="cds-snc logo" src="../stylesheets/images/svg/cds-lockup-ko-en.svg" ></div>
+</div>
 </header>
