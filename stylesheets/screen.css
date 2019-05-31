@@ -95,6 +95,7 @@ Helpers
   width: 90%;
   margin: 0 auto;
   position: relative;
+  max-width:1024px;
 }
 
 .gc-logo img {
@@ -181,6 +182,7 @@ span.tag {
 	width:90%;
   margin: 0 auto;
   position: relative;
+  max-width:1024px;
 }
 
 .wrapper .body-content{
@@ -196,7 +198,6 @@ span.tag {
     white-space: nowrap;
     overflow: hidden;
     /* max-width: 640px; */
-    margin-left: 5%;
     width: 270px;
     /* padding-top: 6%; */
   }
@@ -440,7 +441,7 @@ span.tag {
     .site-header .search-interface,
     .banner form {
       position: absolute;
-      right: 60px;
+      right: 0;
       left: auto;
       top: 0;
     }
@@ -1110,15 +1111,14 @@ nav.nav-main ol li a:hover {
 
 /* @group layouts */
 
-/* @group .layout-table-of-contents */
 
-.layout-table-of-contents .site-header {
+.site-header {
   background: #000;
   color: #fff;
   padding: 1.4em 0 1.8em;
 }
 
-.layout-table-of-contents .site-header p {
+.site-header p {
   line-height: 1.25em;
   max-width: 640px;
   margin: 0 auto 1em;
@@ -1147,25 +1147,31 @@ nav.nav-main ol li a:hover {
   }
 }
 
-.layout-table-of-contents main *:target {
-  animation: highlight 2s;
+@media screen and (min-width: 45em){
+  .search-interface {
+      width: 20%!important;
+      float: right;
+  }
 }
-
 @media screen and (min-width: 568.88px) {
-  .layout-table-of-contents .site-header {
+  .site-header {
     padding-top: 3em;
     padding-bottom: 2em;
   }
-  .layout-table-of-contents .site-header h1 {
+ .site-header h1 {
     font-size: 40px;
   }
-  .layout-table-of-contents .site-header form {
+ .site-header form {
     margin-top: 8px;
   }
-  .layout-table-of-contents .site-header p {
+ .site-header p {
     font-size: 20px;
     line-height: 1.4em;
     margin-bottom: 0.4em;
+  }
+
+  .search-interface {
+    width: 35%;
   }
 }
 
