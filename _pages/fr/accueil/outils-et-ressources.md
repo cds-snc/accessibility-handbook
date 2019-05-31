@@ -25,15 +25,6 @@ L&#39;accessibilité demande du temps. Lorsque vous contactez les services d&#39
 - Un rapport de haut niveau aura une norme de service de 3 jours ouvrables.
 - Un contrôle détaillé de l&#39;accessibilité aura une norme de service de 7 à 10 jours ouvrables.
 
-## Tests multinavigateurs
-
-Pour les tests multinavigateurs, assurez-vous que votre service peut fonctionner sur les navigateurs suivants :
-
-- [Chrome](https://www.google.com/chrome)
-- [Firefox](https://www.mozilla.org/firefox/new/)
-- Windows seulement : [Internet Explorer 11](https://www.microsoft.com/fr-ca/download/internet-explorer.aspx), [Microsoft Edge](https://www.microsoft.com/fr-ca/windows/microsoft-edge)
-- Mac/iOS seulement : [Safari](https://www.apple.com/safari/) (page en anglais seulement)
-
 ## Tests automatisés
 
 Pour les tests automatisés, le SNC utilise un éventail d&#39;outils, dont les suivants :
@@ -62,3 +53,12 @@ Utilisez la [liste de contrôle de l&#39;accessibilité](https://accessibility.1
 - les [formulaires en ligne](https://design-system.service.gov.uk/components/)(site en anglais seulement) qui ne sont pas marqués correctement, de telle sorte que la bonne commande n&#39;est pas associée à la bonne étiquette.
 
 Certains navigateurs ont des outils qui facilitent la recherche de problèmes d&#39;accessibilité dans le modèle d&#39;objets de document (DOM). L&#39;[inspecteur de l&#39;accessibilité pour Mozilla Firefox](https://developer.mozilla.org/fr/docs/Outils/Inspecteur_accessibilite) et les [fonctions d&#39;accessibilité dans Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference) (page en anglais seulement) en sont des exemples. Vous pouvez également consulter le [modèle d&#39;objet d&#39;accessibilité (AOM)](https://wicg.github.io/aom/) (page en anglais seulement).
+
+## Tests multinavigateurs
+
+Pour les tests multinavigateurs, assurez-vous que votre service peut fonctionner sur les navigateurs suivants :
+
+- [Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox/new/)
+- Windows seulement : [Internet Explorer 11](https://www.microsoft.com/fr-ca/download/internet-explorer.aspx), [Microsoft Edge](https://www.microsoft.com/fr-ca/windows/microsoft-edge)
+- Mac/iOS seulement : [Safari](https://www.apple.com/safari/) (page en anglais seulement)

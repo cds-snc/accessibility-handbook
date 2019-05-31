@@ -15,15 +15,6 @@ At the Canadian Digital Service (CDS), we use a variety of testing tools, includ
 - Manual testing and
 - Usability testing including people with disabilities.
 
-## Cross-browser testing
-
-For cross-browser testing, ensure your service works on the following browsers:
-
-- [Chrome](https://www.google.com/chrome)
-- [Firefox](https://www.mozilla.org/firefox/new/)
-- Windows only: [Internet Explorer 11](https://www.microsoft.com/download/internet-explorer.aspx), [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
-- Mac/iOS only: [Safari](https://www.apple.com/safari/)
-
 ## Automated testing
 
 For automated testing, CDS uses a range of tools, including:
@@ -52,6 +43,15 @@ Use [the accessibility checklist created by](https://accessibility.18f.gov/check
 - [nline forms](https://design-system.service.gov.uk/components/) not being marked up correctly, so the right control is associated with the right label
 
 Some browsers have tools that make it easier to find accessibility problems in the Document Object Model (DOM). For example, [accessibility Inspector for Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) and the [accessibility features in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference). Also, you can check out the [Accessibility Object  Model](https://wicg.github.io/aom/).
+
+## Cross-browser testing
+
+For cross-browser testing, ensure your service works on the following browsers:
+
+- [Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox/new/)
+- Windows only: [Internet Explorer 11](https://www.microsoft.com/download/internet-explorer.aspx), [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
+- Mac/iOS only: [Safari](https://www.apple.com/safari/)
 
 ## More resources
 
