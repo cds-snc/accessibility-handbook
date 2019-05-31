@@ -192,6 +192,7 @@ span.tag {
 .body-content img{
   height:270px;
   float:right;
+  margin-left:20px;
 }
 
   .site-header .logo {
