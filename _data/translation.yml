@@ -14,16 +14,16 @@ en:
   footer-heading: Using the handbook and reporting issues
 
 fr:
-  title: "Bienvenue dans le manuel d'accessibilité de la SNC"
+  title: "Bienvenue dans le guide d’accessibilité du SNC"
   software-version: Alpha
-  charter: "Le Service numérique canadien s'est engagé à créer des services accessibles et inclusifs. Construire des services accessibles signifie répondre aux besoins du plus grand nombre de personnes possible. Dès le début, nous travaillons avec les personnes qui utiliseront un produit, y compris les personnes handicapées. Nous travaillons dans toutes les disciplines - nous effaçons les frontières entre recherche, développement, conception et accessibilité.<br><br>L’inclusion est une grande priorité dans tous nos travaux. Pour nous, il est important que chacun puisse interagir avec nos services de manière à répondre à ses besoins personnels et à promouvoir son indépendance et sa dignité. Notre objectif est de le rendre meilleur qu’hier.<br><br>Nous avons rédigé ces principes directeurs pour la création de services accessibles et inclusifs au sein des Services numériques canadiens et avec nos partenaires. Il s’agit d’un ensemble cohérent de directives visant à rendre le contenu accessible aux personnes handicapées."
+  charter: "Le Service numérique canadien s’est engagé à créer des services accessibles et inclusifs. Bâtir des services accessibles, c’est répondre aux besoins du plus grand nombre de personnes possible. Dès le départ, nous travaillons avec celles qui utiliseront un produit, y compris les personnes handicapées. Nous travaillons dans toutes les disciplines, brouillant ainsi les frontières entre la recherche, le développement, la conception et l’accessibilité.<br><br>L’inclusion est une grande priorité dans tous nos travaux. Pour nous, il est important que chacun puisse interagir avec nos services de manière à répondre à ses besoins personnels et à promouvoir son indépendance et sa dignité. Notre objectif, c’est de faire mieux qu’hier.<br><br>Nous avons rédigé ces principes directeurs pour créer des services accessibles et inclusifs au sein du Service numérique canadien et avec nos partenaires. Il s’agit d’un ensemble cohérent de directives visant à rendre le contenu accessible aux personnes handicapées."
   cds-snc: "Service numérique canadien"
   language: "English"
   homepage-slug: "/accueil/"
-  file-an-issue-bt: déposer un problème
+  file-an-issue-bt: Signaler un problème
   edit-this-bt: Modifier cette page
   navigation-tips-bt: Conseils de navigation
-  footer-heading: Utilisation du manuel et problèmes de rapport
+  footer-heading: Utilisation du manuel et communication d’un problème
 
 
 
