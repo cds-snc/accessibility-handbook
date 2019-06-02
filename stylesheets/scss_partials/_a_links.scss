@@ -1,0 +1,34 @@
+a {
+    color: #006fbe;
+  }
+  a:hover {
+    color: #00aedf;
+  }
+  
+  a:visited {
+    color: #8d0058;
+  }
+
+  a.skip-link {
+    color: #fff;
+    border-bottom: none;
+    padding: 0.25em;
+  }
+  
+  a.skip-link:hover,
+  a.skip-link:active,
+  a.skip-link:focus {
+    background-color: #000;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  a.toggle,
+  a.toggle:visited {
+    color: #000;
+  }
+  
+  .site_title a.title-link {
+    color: #fff;
+    border-bottom: none;
+  }

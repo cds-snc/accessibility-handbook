@@ -1,0 +1,74 @@
+/* @group h-card */
+
+.h-card a {
+    color: #555;
+  }
+
+  .h-card::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .h-card .p-street-address,
+  .h-card .p-extended-address,
+  .h-card .p-locality,
+  .h-card .p-region,
+  .h-card .p-postal-code,
+  .h-card .p-job-title,
+  .h-card .p-name,
+  .h-card .p-note,
+  .h-card .p-tel,
+  .h-card .p-email,
+  .h-card .p-org {
+    float: left;
+    max-width: 24em;
+    margin-right: 0.4em;
+    line-height: 24px;
+  }
+
+  .h-card .p-street-address {
+    margin-right: 0;
+  }
+
+  .h-card .p-street-address + .p-extended-address::before {
+    content: ", ";
+  }
+
+  .h-card .p-name {
+    font-weight: 600;
+    color: #342f2b;
+  }
+
+  .h-card .p-job-title {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .h-card .p-locality {
+    margin-right: 0.125em;
+  }
+  .h-card .p-job-title,
+  .h-card .p-note,
+  .h-card .p-locality,
+  .h-card .p-email,
+  .h-card .p-org,
+  .h-card .p-street-address {
+    clear: left;
+  }
+
+  .h-card .p-job-title {
+    color: #666;
+  }
+
+  .h-card .p-note {
+    font-size: 14px;
+    line-height: 1.33em;
+    margin-bottom: 0.67em;
+  }
+
+  .h-card .p-locality::after {
+    content: ",";
+  }
+
+  /* @end */

@@ -1,0 +1,141 @@
+/* @group .layout-article */
+
+.layout-article.with-inline-navigation .wrapper .inline-navigation {
+    font-size: 16px;
+    background: none;
+    padding: 16px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    margin: 0 auto 1.4em;
+    box-shadow: 0 0 0 2px #fafafa;
+    width: 90%;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation h1 {
+    letter-spacing: 0;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation ul {
+    margin: 0 0 -4px 0;
+    padding: 0;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation ul li {
+    list-style-type: none;
+    margin: 0 0 2px -2px;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation ul li.h3 {
+    margin-left: 1em;
+  }
+  .layout-article.with-inline-navigation .wrapper .inline-navigation ul li.h4 {
+    margin-left: 2em;
+  }
+  .layout-article.with-inline-navigation .wrapper .inline-navigation ul li.h5 {
+    margin-left: 3em;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation li a {
+    padding: 4px;
+    display: block;
+    line-height: 1.2em;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .layout-article.with-inline-navigation .wrapper .inline-navigation li a:hover {
+    text-decoration: underline;
+  }
+  
+  .layout-article.with-inline-navigation
+    .wrapper
+    .inline-navigation
+    li.is-active
+    a {
+    background: #297f00;
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (min-width: 568.88px) {
+    .layout-article.with-inline-navigation .wrapper .inline-navigation {
+      float: right;
+      width: 256px;
+      /*margin-left: -256px;
+          left: 288px;
+          margin-right: 50vw;
+          position: relative;*/
+    }
+  }
+  
+  /*@media screen and (min-width: 817.7777px) {
+      .layout-article.with-inline-navigation .wrapper .inline-navigation{
+          margin-left: -352px;
+          left: 384px;
+      }
+  }*/
+  
+  /* @end */
+  
+  /* @group .layout-article-tock */
+  
+  @media screen and (min-width: 426.66px) {
+    .layout-article-tock img {
+      width: 100%;
+      max-width: 512px;
+      margin-top: 1em;
+      border: 1px solid #eee;
+      display: block;
+    }
+  }
+  @media screen and (min-width: 568.88px) {
+    .layout-article-tock img {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (min-width: 711.11px) {
+    .layout-article-tock img {
+      width: 56%;
+    }
+  }
+  
+  @media screen and (min-width: 746.66px) {
+    .layout-article-tock img {
+      width: 56%;
+    }
+  }
+  
+  @media screen and (min-width: 853.33px) {
+    .layout-article-tock img {
+      width: 66%;
+    }
+  }
+  
+  /* @end */
+
+  /* @group .layout-article-professional-development-and-training */
+
+@media screen and (min-width: 40em) {
+    .layout-article-professional-development-and-training table tr td:last-child {
+      width: 7em;
+    }
+  }
+  
+  /* @end */
+
+  /* @group .layout-article-chicago, .layout-article-san-francisco, .layout-article-washington-dc */
+
+@media screen and (min-width: 40em) {
+    .table-office-metadata .col-key {
+      width: 100px;
+      text-align: right;
+      color: #555;
+    }
+  }
+  
+  /* @end */

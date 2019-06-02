@@ -1,0 +1,321 @@
+  /* @group .page */
+
+  .page {
+    padding-top: 1em;
+  }
+
+  .page .wrapper {
+    max-width: 960px;
+  }
+
+  .page td {
+    line-height: 1.4em;
+  }
+
+  .page h1,
+  .page h2,
+  .page h3,
+  .page h4,
+  .page h5 {
+    line-height: 1.125em;
+  }
+
+  .page figure.figure-fill {
+    width: 100%;
+    max-width: none;
+    text-align: center;
+  }
+
+  .page ul,
+  .page ol {
+    padding-left: 1.4em;
+  }
+
+  .page ul ol,
+  .page ul ul,
+  .page ol ol,
+  .page ol ul {
+    margin-left: 0;
+  }
+
+  .page strong {
+    font-weight: 600;
+  }
+  .page em {
+    font-style: italic;
+  }
+
+  a[id] {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .page code {
+    background: #eee;
+    border: 1px solid #e3e3e3;
+    padding: 1px 2px;
+    font-family: "Courier New", Courier, mono;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #d40b79;
+    top: -1px;
+    position: relative;
+    clear: none;
+  }
+
+  .page aside {
+    font-size: 16px;
+    color: #918c84;
+    margin-top: 6px;
+  }
+
+  .page h1,
+  .page .page-title {
+    margin-bottom: 0.67em;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.125em;
+    color: #0c0c0c;
+    letter-spacing: -1px;
+    max-width: 640px;
+    position: relative;
+    left: -1px;
+  }
+
+  .page h1 + p {
+    padding-top: 0.4em;
+    font-family: merriweather;
+    line-height: 1.5em;
+    color: #444;
+    font-size: 18px;
+    margin: -1em 0 2em;
+  }
+
+  .page h2 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: Merriweather, Georgia;
+    color: #ffbf51;
+    margin: 28px 0 16px;
+  }
+
+  .page h3,
+  .page h4 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.4em;
+    margin-top: 28px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+
+  .page h4 {
+    font: inherit;
+    font-family: Merriweather, Georgia;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: 0.05em;
+    word-spacing: 0.125em;
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .page h5 {
+    font-weight: 600;
+  }
+
+  .location .h-card .p-name {
+    position: absolute;
+    left: -9999em;
+  }
+
+  .page blockquote {
+    padding-left: 1em;
+    margin-left: 1rem;
+    position: relative;
+    border-left: 3px solid #e3e3e3;
+  }
+
+  .page blockquote p {
+    font-family: Merriweather, Georgia, serif;
+    font-style: italic;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.67em;
+    width: auto;
+    max-width: none;
+  }
+
+  .page p,
+  .page figure,
+  .page ul,
+  .page ol,
+  .page dl,
+  .page li,
+  .page td {
+    margin: 0 0 0.8em;
+    line-height: 1.6em;
+  }
+
+  @media screen and (min-width: 568.88px) {
+    .page {
+      padding-top: 1.6em;
+    }
+
+    .page .page-title,
+    .page h1,
+    .page h2,
+    .page h3,
+    .page h4,
+    .page h5,
+    .page figure,
+    .page p,
+    .page ul,
+    .page ol,
+    .page dl,
+    .page li,
+    .page blockquote {
+      max-width: 66ch;
+    }
+
+    .page li p {
+      margin-left: 0;
+      width: auto;
+    }
+
+    .page h1,
+    .page h2,
+    .page h3,
+    .page h4 {
+      line-height: 1.2em;
+    }
+
+    .page h1,
+    .page .page-title {
+      font-size: 40px;
+    }
+    .page h1 + p,
+    .page .page-title + p {
+      font-size: 20px;
+      line-height: 1.67em;
+    }
+    .page h2 {
+      margin-top: 28px;
+      font-size: 21px;
+      line-height: 1.3em;
+    }
+  }
+
+
+.page .page-title + h2 {
+  margin-top: 20px;
+}
+
+.page hr {
+  border: none;
+  height: 0.2em;
+  margin: 2em 0;
+  background: #f2f1ec;
+  max-width: 66ch;
+}
+
+.page .h-card {
+  line-height: 1.33em;
+  margin: 0 auto 0.6em;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 480px;
+  position: relative;
+}
+
+.page .h-card:last-of-type {
+  margin-bottom: 1em;
+}
+
+.page table {
+  border-radius: 3px;
+  border: 1px solid #eee;
+  max-width: 640px;
+  table-layout: fixed;
+  box-shadow: 0 0 0 2px #fafafa;
+}
+
+.page table tbody tr:first-child td:first-child {
+  border-radius: 3px;
+}
+
+.page table tbody tr:nth-child(odd) td {
+  background: #fafafa;
+}
+
+.page table td,
+.page table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.page .h-card .p-job-title {
+  clear: left;
+  display: block;
+}
+
+@media screen and (min-width: 711.11px) {
+  .page .h-card {
+    position: relative;
+    left: -80px;
+  }
+}
+
+.page .h-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: #e7f3f4;
+  border-radius: 5px 0 0 5px;
+}
+
+.page .h-card .p-tel {
+  clear: left;
+}
+
+.page li {
+  list-style-type: square;
+  margin-left: 1.125em;
+  margin-bottom: 0.6em;
+}
+
+.page ol li {
+  list-style-type: decimal;
+}
+.page ol li li {
+  list-style-type: lower-latin;
+}
+
+.page ol > li li {
+  margin-bottom: 0.2em;
+}
+.page ol > li li li {
+  margin-bottom: 0.3em;
+}
+
+.page ol .offices a {
+  color: #aa470f;
+}
+.page ol .offices a:hover {
+  color: #8d0058;
+  text-decoration: underline;
+}
+
+.page table thead td {
+  font-weight: 300;
+}
+
+/* @end */

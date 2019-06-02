@@ -24,6 +24,7 @@ exclude:
 - app.json
 
 sass:
+  sass_dir: stylesheets
   style: :compressed
 
 defaults:

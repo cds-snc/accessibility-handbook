@@ -1,0 +1,239 @@
+  /* @group .site-header */
+
+  .site-header {
+    border-bottom: 1px solid #202020;
+    color: #fff;
+    background: #000;
+    padding: 1.4em 0 1.8em;
+  }
+  
+  .site-header p {
+    line-height: 1.25em;
+    max-width: 640px;
+    margin: 0 auto 1em;
+  }
+
+  .site-header .logo {
+    white-space: nowrap;
+    overflow: hidden;
+    /* max-width: 640px; */
+    width: 270px;
+    /* padding-top: 6%; */
+  }
+
+  .logo img {
+    height: 52px;
+  }
+  
+  .site-header h1 a {
+    font-size: 24px;
+    color: inherit;
+    text-decoration: none;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  .site-header form,
+  .search-interface form {
+    position: relative;
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+
+  .site-header form .field {
+    position: relative;
+    background-color: #fff;
+    border-radius: 99em;
+  }
+
+  .site-header .field .label-text {
+    color: #ccc;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  html body .site-header form input {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 999em;
+    box-shadow: 0 1px 0 #676969;
+    display: block;
+    width: 100% !important;
+    height: 32px;
+    line-height: 26px !important;
+    font: inherit;
+    font-size: 18px !important;
+    padding: 0;
+    padding-left: 28px !important;
+    color: #aaa;
+  }
+
+  *::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="search"]:focus::-webkit-search-cancel-button::after {
+    content: "\00D7";
+    display: block;
+    text-align: center;
+    height: 0.8em;
+    width: 0.8em;
+    line-height: 0.82em;
+    font-size: 18px;
+    border-radius: 100%;
+    margin-right: 6px;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .site-header form label::before,
+  .search-interface form label::before {
+    content: "\e900";
+    font-family: "icomoon" !important;
+    speak: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: absolute;
+    bottom: 9px;
+    top: auto;
+    left: 10px;
+    color: rgb(12, 9, 9);
+    position: absolute;
+    margin-top: -0.5em;
+  }
+
+  .site-header form .is-focused input,
+  .search-interface form .is-focused input,
+  .site-header form .is-focused label::before,
+  .search-interface form .is-focused label::before {
+    color: #000;
+  }
+
+  .site-header form button {
+    position: absolute;
+    left: -9999em;
+    bottom: 3px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: #f8f8f8;
+    font: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+    padding: 4px 12px;
+    height: 2.33em;
+  }
+
+  .site-header form button:hover {
+    background-color: #eee;
+    color: #111;
+    border-color: #bbb;
+    cursor: pointer;
+  }
+
+  .site-header div.signed-in {
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 8px 8px 8px 44px;
+    font-size: 14px;
+    line-height: 1.2;
+    width: 192px;
+    border: 1px solid transparent;
+  }
+
+  .site-header div.signed-in:hover {
+    background: linear-gradient(#fbf9f4, #f0ede7);
+    border-color: #ebe8e0;
+    border-bottom-color: #dbd5c8;
+    cursor: pointer;
+    -webkit-box-shadow: inset 1px 1px 0 #fff;
+  }
+
+  .site-header div.signed-in h1 {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: Lucida Grande;
+    color: #555;
+    position: relative;
+    left: 1px;
+    margin-top: 1px;
+  }
+
+  .site-header div.signed-in img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    position: absolute;
+    left: 6px;
+    top: 5px;
+  }
+
+  .site-header div.signed-in a {
+    margin-left: 0.4em;
+    font-size: 14px;
+    color: #8f8466;
+  }
+
+  @media screen and (min-width: 568.88px) {
+    .site-header .logo {
+      white-space: nowrap;
+      overflow: hidden;
+      /* max-width: 640px; */
+      /* margin: 0 auto; */
+    }
+
+    .site-header .search-interface,
+    .banner form {
+      position: absolute;
+      right: 0;
+      left: auto;
+      top: 0;
+    }
+
+    .banner form input {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 45em){
+    .search-interface {
+        width: 20%!important;
+        float: right;
+    }
+  }
+  @media screen and (min-width: 568.88px) {
+    .site-header {
+      padding-top: 3em;
+      padding-bottom: 2em;
+    }
+   .site-header h1 {
+      font-size: 40px;
+    }
+   .site-header form {
+      margin-top: 8px;
+    }
+   .site-header p {
+      font-size: 20px;
+      line-height: 1.4em;
+      margin-bottom: 0.4em;
+    }
+  
+    .search-interface {
+      width: 35%;
+    }
+  }
+
+  /* @end */
