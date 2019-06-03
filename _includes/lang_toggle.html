@@ -1,0 +1,15 @@
+{% if page.lang == 'en' or page.permalink == '/' %}
+    {% assign translationText = "Français" %}
+{% else %}
+    {% assign translationText = "English" %}
+{% endif %}
+
+{% if page.homepage and page.permalink == '/' %}
+    {% assign translationUrl = "/accueil" %}
+{% elsif page.homepage and page.permalink == '/accueil/' %}
+    {% assign translationUrl = "/" %}
+{% else %}
+    {% assign translationUrl = page.trans_url %}
+{% endif %}
+
+<div class="lang-toggle"> <a class="toggle" href="{{ translationUrl }}">{{translationText}}</a></div>
