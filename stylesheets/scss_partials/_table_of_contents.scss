@@ -1,0 +1,222 @@
+/* @group nav.nav-table-of-contents */
+
+nav.nav-table-of-contents {
+    z-index: 1;
+    position: relative;
+  }
+  
+  nav.nav-table-of-contents .wrapper {
+    background: #25394a;
+    color: white;
+    padding: 1em;
+    border-radius: 0.25em;
+  }
+  
+  a.table-of-contents--toggle {
+    display: inline-block;
+    vertical-align: middle;
+    color: #006fbe;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 1.67em;
+    height: 1.67em;
+    text-align: center;
+    text-indent: -9999em;
+    position: relative;
+  }
+  
+  a.table-of-contents--toggle::before {
+    width: 0.67em;
+    height: 0.67em;
+    background: url(images/icons/menu.gif) top left no-repeat;
+    background-size: cover;
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    margin-left: -0.33em;
+    margin-top: -0.33em;
+    opacity: 0.7;
+  }
+  
+  body nav.nav-table-of-contents .wrapper {
+    display: none;
+  }
+  body.no-js nav.nav-table-of-contents .wrapper,
+  body.show-table-of-contents nav.nav-table-of-contents .wrapper {
+    display: block;
+  }
+  
+  nav.nav-table-of-contents a {
+    color: #b3efff;
+    text-decoration: none;
+  }
+  
+  nav.nav-table-of-contents ol {
+    margin-bottom: 0.5em;
+  }
+  
+  nav.nav-table-of-contents li {
+    list-style-type: square;
+    margin-left: 1.125em;
+    margin-bottom: 0;
+    line-height: 1.4em;
+  }
+  
+  nav.nav-table-of-contents ol li {
+    list-style-type: decimal;
+  }
+  nav.nav-table-of-contents ol li li {
+    list-style-type: lower-latin;
+  }
+  
+  @media screen and (min-width: 711.11px) {
+    nav.nav-table-of-contents .wrapper {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+    }
+  }
+  
+  /* @end */
+  
+  /* @group nav.nav-main */
+  
+  nav.nav-main {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 24px;
+  }
+  
+  nav.nav-main ol,
+  nav.nav-main ol li {
+    display: inline-block;
+  }
+  
+  nav.nav-main ol li::after {
+    border-color: #888;
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+  
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    vertical-align: middle;
+    margin-right: 0.2em;
+    margin-left: 0.4em;
+  }
+  
+  nav.nav-main ol li:last-child::after {
+    display: none;
+  }
+  nav.nav-main ol li a {
+    color: #777;
+    text-decoration: none;
+  }
+  nav.nav-main ol li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .layout-table-of-contents p,
+.layout-table-of-contents li {
+  line-height: 1.33em;
+}
+
+.layout-table-of-contents main p {
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.layout-table-of-contents .wrapper > ol {
+  /*max-width: 90%;*/
+  margin: 0 auto;
+}
+
+.layout-table-of-contents .wrapper ol li.toc-nav-child-with-children {
+  font-weight: 600;
+  padding-top: 1em;
+}
+
+.layout-table-of-contents .wrapper ol li.toc-nav-child-with-children > ol {
+  padding-top: 0.6em;
+}
+
+.toc-nav-children-level-2 {
+  padding-top: 1em;
+}
+
+.toc-nav-children-level-4 {
+  padding-top: 0.6em;
+  padding-bottom: 1em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
+
+.toc-nav-children-level-5 {
+  padding-left: 1rem;
+}
+
+.toc-nav-children-level-6 {
+  padding-left: 1.5rem;
+}
+
+.layout-table-of-contents .wrapper ol li.policies {
+  padding-bottom: 1em;
+}
+
+.layout-table-of-contents .wrapper ol li {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 711.11px) {
+  .toc-nav-children,
+  .toc-nav-grandchildren {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+  }
+
+  .toc-nav-child-with-children {
+    column-span: all;
+  }
+}
+
+.layout-table-of-contents ol h1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 1em;
+  margin-bottom: 0.4em;
+  border-top: 0.2em solid #e6e6e3;
+  margin-top: 1em;
+  color: #000;
+}
+
+.layout-table-of-contents ol li:first-of-type h1 {
+  border-top: none;
+  margin-top: 0;
+}
+
+.layout-table-of-contents ol h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 1em;
+  color: #006d47;
+}
+
+.layout-table-of-contents ol h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.layout-table-of-contents ol h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+  /* @end */
