@@ -128,11 +128,6 @@
     font-weight: 600;
   }
 
-  .location .h-card .p-name {
-    position: absolute;
-    left: -9999em;
-  }
-
   .page blockquote {
     padding-left: 1em;
     margin-left: 1rem;
@@ -223,20 +218,6 @@
   max-width: 66ch;
 }
 
-.page .h-card {
-  line-height: 1.33em;
-  margin: 0 auto 0.6em;
-  padding: 8px 16px 8px 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  max-width: 480px;
-  position: relative;
-}
-
-.page .h-card:last-of-type {
-  margin-bottom: 1em;
-}
-
 .page table {
   border-radius: 3px;
   border: 1px solid #eee;
@@ -257,33 +238,6 @@
 .page table th {
   border: 1px solid #ddd;
   padding: 8px;
-}
-
-.page .h-card .p-job-title {
-  clear: left;
-  display: block;
-}
-
-@media screen and (min-width: 711.11px) {
-  .page .h-card {
-    position: relative;
-    left: -80px;
-  }
-}
-
-.page .h-card::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 6px;
-  background: #e7f3f4;
-  border-radius: 5px 0 0 5px;
-}
-
-.page .h-card .p-tel {
-  clear: left;
 }
 
 .page li {

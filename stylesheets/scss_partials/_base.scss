@@ -15,6 +15,55 @@ body {
   background: #f8f8f8;
 }
 
+.accessible-nav {
+  display: block;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.wrapper {
+    width:90%;
+    margin: 0 auto;
+    position: relative;
+    max-width:1024px;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .body-content {
+        display: block;
+    }
+
+    .headline {
+        font-size: 1.5em;
+        color: #000;
+        line-height: 1.125em;
+        font-family: source sans pro, arial, sans;
+        font-weight: 600;
+        padding-bottom: 0.33em;
+        display: block;
+        letter-spacing: -0.03em;
+        max-width: 640px;
+        position: relative;
+        padding:1em 0;
+    }
+}
+
+.body-content img{
+  height:270px;
+  float:right;
+  margin-left:20px;
+}
+
+main {
+  background: white;
+  padding-bottom: 2em;
+}
+
 // .gc-logo-page img {
 //   height: 25px;
 //   float: left;
@@ -29,61 +78,10 @@ body {
 //   color: #000;
 // }
 
-.accessible-nav {
-  display: block;
-  text-align: center;
-  max-width: 300px;
-  margin: 0 auto;
-}
-
 // .float-right a.toggle:visited {
 //   color: #fff;
 //   text-decoration: none;
 // }
-
-.wrapper {
-	width:90%;
-  margin: 0 auto;
-  position: relative;
-  max-width:1024px;
-}
-
-.wrapper .body-content{
-  display: block;
-}
-
-.body-content img{
-  height:270px;
-  float:right;
-  margin-left:20px;
-}
-
-.wrapper::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-main {
-  background: white;
-  padding-bottom: 2em;
-}
-
-/* @group layouts */
-
-.wrapper .headline {
-  font-size: 1.5em;
-  color: #000;
-  line-height: 1.125em;
-  font-family: source sans pro, arial, sans;
-  font-weight: 600;
-  padding-bottom: 0.33em;
-  display: block;
-  letter-spacing: -0.03em;
-  max-width: 640px;
-  position: relative;
-  padding:1em 0;
-}
 
 // @keyframes highlight {
 //   0% {

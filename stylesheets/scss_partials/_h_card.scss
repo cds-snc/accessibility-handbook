@@ -27,6 +27,15 @@
     line-height: 24px;
   }
 
+  .h-card .p-job-title,
+  .h-card .p-note,
+  .h-card .p-locality,
+  .h-card .p-email,
+  .h-card .p-org,
+  .h-card .p-street-address {
+    clear: left;
+  }
+
   .h-card .p-street-address {
     margin-right: 0;
   }
@@ -43,23 +52,17 @@
   .h-card .p-job-title {
     margin-bottom: 8px;
     display: block;
+    color: #666;
   }
 
   .h-card .p-locality {
     margin-right: 0.125em;
+    
+    &::after {
+      content:",";
+    }
   }
-  .h-card .p-job-title,
-  .h-card .p-note,
-  .h-card .p-locality,
-  .h-card .p-email,
-  .h-card .p-org,
-  .h-card .p-street-address {
-    clear: left;
-  }
-
-  .h-card .p-job-title {
-    color: #666;
-  }
+  
 
   .h-card .p-note {
     font-size: 14px;
@@ -67,8 +70,50 @@
     margin-bottom: 0.67em;
   }
 
-  .h-card .p-locality::after {
-    content: ",";
+  .page .h-card {
+    line-height: 1.33em;
+    margin: 0 auto 0.6em;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 480px;
+    position: relative;
+  }
+  
+  .page .h-card:last-of-type {
+    margin-bottom: 1em;
+  }
+
+  .location .h-card .p-name {
+    position: absolute;
+    left: -9999em;
+  }
+
+  .page .h-card .p-job-title {
+    clear: left;
+    display: block;
+  }
+
+  @media screen and (min-width: 711.11px) {
+    .page .h-card {
+      position: relative;
+      left: -80px;
+    }
+  }
+
+  .page .h-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: #e7f3f4;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .page .h-card .p-tel {
+    clear: left;
   }
 
   /* @end */
