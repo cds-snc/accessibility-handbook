@@ -20,7 +20,6 @@ At CDS, you have the benefit of our Accessibility Services. Some of the things t
 
 ## Leave time for analysis
 
-[some kind of introductory sentence, perhaps: Accessibility takes time. When you reach out to accessibility services, you can expect the following delivery times:
-
+- Accessibility services should be requested at least 3 weeks in advance.
 - A high-level report will have a service standard for 3 business days.
 - A detailed accessibility audit will have a service standard for 7-10 business days.
