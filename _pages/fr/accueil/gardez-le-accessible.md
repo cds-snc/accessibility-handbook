@@ -14,7 +14,7 @@ Pour vous assurer que votre service est accessible et inclusif, il faut considé
 
 Prévoyez de faire participer les services d&#39;accessibilité lors de chaque phase. Vous pouvez aussi demander du soutien sur un plus long terme afin de suivre vos progrès et créer un modèle d&#39;accessibilité durable.
 
-# Testez régulièrement votre code afin de relever tout problème lié au développement, à la conception et au contenu. Au SNC, nous avons inclus les tests automatisés dans notre processus d&#39;intégration continue. Il est important de faire à la fois des tests automatisés et manuels : vous raterez beaucoup de problèmes si vous faites seulement les tests automatisés. Ces derniers ne couvrent actuellement que 40 % des problèmes liés à l&#39;accessibilité.
+Testez régulièrement votre code afin de relever tout problème lié au développement, à la conception et au contenu. Au SNC, nous avons inclus les tests automatisés dans notre processus d&#39;intégration continue. Il est important de faire à la fois des tests automatisés et manuels : vous raterez beaucoup de problèmes si vous faites seulement les tests automatisés. Ces derniers ne couvrent actuellement que 40 % des problèmes liés à l&#39;accessibilité.
 
 Les sections suivantes fournissent des détails qui vous permettront d&#39;orienter vos travaux d&#39;accessibilité à chaque phase du développement :
 
