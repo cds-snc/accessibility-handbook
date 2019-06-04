@@ -44,13 +44,12 @@
 
   .site-footer .button {
     border: 1px solid #d3d3d3;
-    border-bottom-color: #ccc;
     border-radius: 2px;
     background: #f8f8f8;
-    background: linear-gradient(#fff, #eee);
+    background: #fff;
     font: inherit;
     font-size: 16px;
-    color: #333;
+    color: #000;
     text-shadow: 0 1px 0 #fff;
     padding: 4px 12px 6px;
     -webkit-box-shadow: 0 1px 0 #eee;
@@ -62,9 +61,8 @@
     cursor: default;
 
     &:hover {
-      background: linear-gradient(#fff, #e3e3e3);
+      cursor: pointer;
       border-color: #c3c3c3;
-      border-bottom-color: #b8b8b8;
       text-decoration: none;
     }
 
