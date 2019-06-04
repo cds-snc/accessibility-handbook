@@ -37,7 +37,7 @@
     position: relative;
     text-align: right;
     margin-top: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
 
   .site-header form {
@@ -189,12 +189,6 @@
   }
 
   @media screen and (min-width: 568.88px) {
-    .site-header .logo {
-      white-space: nowrap;
-      overflow: hidden;
-      /* max-width: 640px; */
-      /* margin: 0 auto; */
-    }
 
     .site-header .search-interface,
     .banner form {
@@ -207,18 +201,15 @@
     .banner form input {
       margin-bottom: 0;
     }
-  }
 
-  @media screen and (min-width: 45em){
-    .search-interface {
-        width: 20%!important;
-        float: right;
-    }
-  }
-  @media screen and (min-width: 568.88px) {
     .site-header {
       padding-top: 3em;
       padding-bottom: 2em;
+
+      .logo {
+        white-space: nowrap;
+        overflow: hidden;
+      }
 
       h1 {
         font-size: 40px;
@@ -226,6 +217,7 @@
 
       form {
         margin-top: 8px;
+        margin-bottom: 6px;
       }
 
       p {
@@ -237,6 +229,13 @@
   
     .search-interface {
       width: 35%;
+    }
+  }
+
+  @media screen and (min-width: 45em){
+    .search-interface {
+        width: 20%!important;
+        float: right;
     }
   }
 
