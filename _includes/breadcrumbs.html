@@ -2,12 +2,14 @@
 
 {% if page.lang == 'en' %}
     {% assign homeText = "Table of Contents" %}
+    {% assign homeUrl = "/" %}
 {% else %}
     {% assign homeText = "Table des matières" %}
+    {% assign homeUrl = "/accueil/" %}
 {% endif %}
 
 <ul class="breadcrumbs">
-    <li class="breadcrumbs__link"><a class="breadcrumbs__link-link" href="/">{{homeText}}</a></li>
+    <li class="breadcrumbs__link"><a class="breadcrumbs__link-link" href={{homeUrl}}>{{homeText}}</a></li>
     {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
         <li class="breadcrumbs__link breadcrumbs__link--text"><span class="breadcrumbs__link-seperator">>></span>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
