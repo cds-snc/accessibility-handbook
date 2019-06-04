@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Services d'accessibilité à snc
+title: Services d'accessibilité au SNC
 lang: fr
 category: "accueil"
 permalink: "/services-d-accessibilite-a-snc/"
