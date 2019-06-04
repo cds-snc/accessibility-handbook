@@ -4,18 +4,16 @@
     margin: 0 auto;
     position: relative;
     max-width:1024px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 
-    .gc-logo img {
-        height: 25px;
-        float: left;
-        margin: 14px 0;
+    .gc-logo {
+        max-width: 270px;
+        width: 70%;
     }
 
     .lang-toggle {
-        float: right;
-        margin-right: 20px;
-        margin-top: 15px;
-        padding-right: 20px;
         color: #000;
     }
 }
