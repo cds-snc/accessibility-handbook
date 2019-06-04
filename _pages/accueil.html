@@ -28,7 +28,10 @@ layout: null
     <main id="main" role="main">
       <div class="wrapper">
         <h1 class="headline">{{site.data.translation.fr.title}} <span class="tag">{{site.data.translation.fr.software-version}}</span></h1>
-        <p>{{site.data.translation.fr.charter}}</p>
+          <div class="body-content">
+          <img class="accessibility-wheel-logo" alt="Accessibility Wheel chair logo" src="../stylesheets/images/accessibilityicon.png" />
+          <p class="charter">{{site.data.translation.fr.charter}}</p>
+        </div>
         <ol>
         {% for nav in site.data.menu.fr %}
         {% if nav.url == nil %}{% continue %}{% endif %}
