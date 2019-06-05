@@ -1,4 +1,5 @@
 /* @group ol.accessibility-matters */
+ol.charte,
 ol.accessiblity-matters {
   display: flex;
   flex-wrap: wrap;
@@ -24,12 +25,14 @@ ol.accessiblity-matters {
 }
   
 @media screen and (min-width: 720px) {
+  ol.charte li.section-box,
   ol.accessiblity-matters li.section-box {
     width: 49%;
   }
 }
 
 @media screen and (min-width: 970px) {
+  ol.charte li.section-box,
   ol.accessiblity-matters li.section-box {
     width: 24%;
   }
