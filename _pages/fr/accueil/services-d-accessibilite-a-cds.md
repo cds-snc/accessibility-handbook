@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Services d'accessibilité à snc
+title: Services d'accessibilité au SNC
 lang: fr
 category: "accueil"
 permalink: "/services-d-accessibilite-a-snc/"
@@ -21,5 +21,13 @@ Au SNC, vous pouvez bénéficier de nos services d’accessibilité. Les service
 
 L’accessibilité demande du temps. Lorsque vous contactez les services d’accessibilité, vous pouvez vous attendre aux délais suivants :
 
+- [Les choses à faire et à ne pas faire au moment de la conception pour l&#39;accessibilité](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/) (site en anglais seulement)
+- [La façon dont le Government Digital Service a fait les tests d&#39;accessibilité sur GOV.UK](https://gds.blog.gov.uk/2012/01/20/user-testing-accessibility/) (site en anglais seulement)
+
+Vous pourriez également trouver les guides suivants utiles :
+
+- [Rendre votre service accessible : une introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) (site en anglais seulement)
+- [Utiliser, adapter et créer des motifs](https://www.gov.uk/service-manual/design/using-adapting-and-creating-patterns) (site en anglais seulement)
+- [Utiliser l&#39;amélioration progressive](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) (site en anglais seulement)
 - Un rapport de haut niveau aura une norme de service de 3 jours ouvrables.
 - Un contrôle détaillé de l’accessibilité aura une norme de service de 7 à 10 jours ouvrables.
