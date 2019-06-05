@@ -1,10 +1,10 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 
 {% if page.lang == 'en' %}
-    {% assign homeText = "Table of Contents" %}
+    {% assign homeText = "Home" %}
     {% assign homeUrl = "/" %}
 {% else %}
-    {% assign homeText = "Table des matières" %}
+    {% assign homeText = "Accueil" %}
     {% assign homeUrl = "/accueil/" %}
 {% endif %}
 
