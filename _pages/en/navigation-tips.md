@@ -1,5 +1,8 @@
 ---
-title: Navigation tips french
+title: Navigation Tips
+lang: en
+permalink: "/navigation-tips/"
+trans_url: "/conseils-de-navigation/"
 skip_index: true
 ---
 
