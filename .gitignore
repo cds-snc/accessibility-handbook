@@ -1,3 +1,4 @@
 .sass-cache
 _site/
-stylesheets/.DS_Store
+**/.DS_Store
+.DS_Store

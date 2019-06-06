@@ -1,6 +1,12 @@
+{% if page.lang == 'en' %}
+    {% assign translationText = "Français" %}
+{% else %}
+    {% assign translationText = "English" %}
+{% endif %}
+
 <footer class="site-footer" id="footer" role="footer">
   <div class="wrapper">
-    <p class="site-footer__heading">{{ site.data.translation.en.footer-heading }}</p>
+    <p class="site-footer__heading">{{ site.data.translation[page.lang].footer-heading }}</p>
     <nav class="site-footer__nav">
       <a href="{{ site.baseurl}}/nav-tips/" class="site-footer__nav-link">{{ site.data.translation[page.lang].navigation-tips-bt }}</a>
       <a class="site-footer__nav-link" href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/edit/{{ site.github.default_branch }}/{{ page.path }}">{{ site.data.translation[page.lang].edit-this-bt }}</a>
