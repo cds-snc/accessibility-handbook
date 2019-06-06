@@ -16,4 +16,20 @@
     .lang-toggle {
         color: #000;
     }
+
+    #searchToggle {
+        outline: 0;
+        background: transparent;
+        color: 000;
+        border: 0;
+        font-size: 1.125rem;
+        padding: 0;
+        font-family: Source Sans Pro, Verdana, sans-serif;
+        text-decoration: underline;
+        font-weight: 400;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
