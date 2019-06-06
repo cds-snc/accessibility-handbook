@@ -97,7 +97,7 @@
     font-size: 21px;
     line-height: 1.3em;
     font-family: Merriweather, Georgia;
-    color: #ffbf51;
+    color: $dark-blue;
     margin: 28px 0 16px;
   }
 
@@ -264,7 +264,7 @@
   color: #aa470f;
 }
 .page ol .offices a:hover {
-  color: #8d0058;
+  color: $dark-purple;
   text-decoration: underline;
 }
 

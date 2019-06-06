@@ -1,11 +1,11 @@
 a {
-  color: #006fbe;
+  color: $sky-blue;
   &:hover {
     color: #00aedf;
   }
 
   &:visited {
-    color: #8d0058;
+    color: $dark-purple;
   }
 }
 
@@ -17,7 +17,7 @@ a.skip-link {
   &:hover,
   &:active,
   &:focus {
-    background-color: #000;
+    background-color:$pitch-black;
     color: #fff;
     border-bottom: none;
   }
@@ -25,7 +25,7 @@ a.skip-link {
   
 a.toggle,
 a.toggle:visited {
-  color: #000;
+  color: $pitch-black;
 }
 
 .site_title a.title-link {

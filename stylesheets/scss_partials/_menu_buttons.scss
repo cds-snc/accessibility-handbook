@@ -10,11 +10,11 @@ ol.accessiblity-matters {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 4px solid #000;
+    border: 4px solid $pitch-black;
     padding: 1.2em;
 
     a {
-      color: #000;
+      color: $pitch-black;
       font-weight: 700;
       font-size: 1.3em;
       text-align: center;
