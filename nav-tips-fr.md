@@ -1,7 +1,8 @@
 ---
-title: Navigation tips
+title: Navigation tips french
 skip_index: true
 ---
+
 ### Mouse-free search
 
 To jump to the search box, press the `/` key. On the search results page, the
