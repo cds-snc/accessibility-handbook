@@ -1,7 +1,9 @@
 ---
 layout: page
 hide_edit_link: true
-lang: en
+search: true
+lang: fr
+title: Résultats de recherche
 ---
 <script>
     /*
@@ -31,5 +33,47 @@ lang: en
         }
         });
     }
+
+    document.addEventListener('click', function (event) {
+
+        // If the clicked element doesn't have the right selector, bail
+        if (!event.target.matches('.toggle')) return;
+
+        // Don't follow the link
+        event.preventDefault();
+
+        translateText();
+
+    }, false);
+
+    function translateText() {
+        var searchButton =  document.getElementById("searchToggle");
+        var langSetting = (searchButton.innerHTML === 'English') ? "en" : "fr";
+        var siteText = {};
+
+        siteText.fileIssue = (langSetting === "en") ? "{{site.data.translation.en.file-an-issue-bt | json}}" : "{{site.data.translation.fr.file-an-issue-bt | json}}";
+        siteText.editThis = (langSetting === "en") ? "{{site.data.translation.en.edit-this-bt | json}}" : "{{site.data.translation.fr.edit-this-bt | json}}";
+        siteText.navigationTips = (langSetting === "en") ? "{{site.data.translation.en.navigation-tips-bt | json}}" : "{{site.data.translation.fr.navigation-tips-bt | json}}"; 
+        siteText.footerHeading = (langSetting === "en") ? "{{site.data.translation.en.footer-heading | json}}" : "{{site.data.translation.fr.footer-heading | json}}";
+        siteText.home = (langSetting === "en") ? "Home" : "Accueil"; 
+        siteText.homeUrl = (langSetting === "en") ? "/" : "/accueil"
+        siteText.searchPageHeading = (langSetting === "en") ? "Search Results" : "Résultats de recherche";
+
+        var elems = {};
+        elems.footerHeading = document.getElementById("footerHeading");
+        elems.footerNavLinks = document.getElementsByClassName("site-footer__nav-link");
+        elems.breadCrumbs = document.getElementsByClassName("breadcrumbs__link");
+        elems.searchPageHeading = document.getElementsByClassName("page-title")[0];
+
+        searchButton.innerHTML = (langSetting === "en") ? "Français" : "English";
+        elems.footerHeading.innerHTML = siteText.footerHeading;
+        elems.footerNavLinks[0].innerHTML = siteText.navigationTips;
+        elems.footerNavLinks[1].innerHTML = siteText.editThis;
+        elems.footerNavLinks[2].innerHTML = siteText.fileIssue;
+        elems.breadCrumbs[0].childNodes[0].innerHTML = siteText.home;
+        elems.breadCrumbs[0].childNodes[0].href = siteText.homeUrl;
+        elems.searchPageHeading.innerHTML = siteText.searchPageHeading; 
+    }
 </script>
+
 {% jekyll_pages_api_search_results %}

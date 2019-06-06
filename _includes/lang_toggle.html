@@ -4,4 +4,8 @@
     {% assign translationText = "English" %}
 {% endif %}
 
-<div class="lang-toggle"> <a class="toggle" href="{{ page.trans_url }}">{{translationText}}</a></div>
+{% if page.search %}
+    <div class="lang-toggle"><button id="searchToggle" class="toggle">English</button></div>
+{% else %}
+    <div class="lang-toggle"> <a class="toggle" href="{{ page.trans_url }}">{{translationText}}</a></div>
+{% endif %}
