@@ -5,7 +5,7 @@
     padding-top: 1em;
     padding-bottom: 2em;
     color: #555;
-    background: #f8f8f8;
+    background: $light-gray;
 
     .footer-heading{
       float:left;
@@ -45,11 +45,11 @@
   .site-footer .button {
     border: 1px solid #d3d3d3;
     border-radius: 2px;
-    background: #f8f8f8;
+    background: $light-gray;
     background: #fff;
     font: inherit;
     font-size: 16px;
-    color: #000;
+    color: $pitch-black;
     text-shadow: 0 1px 0 #fff;
     padding: 4px 12px 6px;
     -webkit-box-shadow: 0 1px 0 #eee;

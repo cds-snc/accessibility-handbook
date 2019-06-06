@@ -3,7 +3,7 @@
   .site-header {
     border-bottom: 1px solid #202020;
     color: #fff;
-    background: #000;
+    background: $pitch-black;
     padding: 1.4em 0 1.8em;
 
     p {
@@ -47,7 +47,7 @@
       border-radius: 99em;
 
       .label-text {
-        color: #ccc;
+        color: $pitch-black;
         left: 50%;
         top: 0;
         bottom: 0;
@@ -70,7 +70,7 @@
       font-size: 18px !important;
       padding: 0;
       padding-left: 28px !important;
-      color: #aaa;
+      color: $pitch-black;
     }
 
     button {
@@ -79,7 +79,7 @@
       bottom: 3px;
       border: 1px solid #ddd;
       border-radius: 2px;
-      background: #f8f8f8;
+      background: $light-gray;
       font: inherit;
       font-weight: 600;
       font-size: 16px;
@@ -114,7 +114,7 @@
     border-radius: 100%;
     margin-right: 6px;
     background-color: #fff;
-    color: #000;
+    color: $pitch-black;
   }
 
   .site-header form label::before,
