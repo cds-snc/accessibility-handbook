@@ -4,7 +4,7 @@ title: Tools and Resources
 lang: en
 category: "homepage"
 permalink: "/tools-and-resources/"
-trans_url: "/comment-le-rendre-accessible/"
+trans_url: "/outils-et-ressources/"
 ---
 
 At the Canadian Digital Service (CDS), we use a variety of testing tools, including:
