@@ -4,7 +4,7 @@ title: How to make it Accessible
 lang: en
 category: "homepage"
 permalink: "/how-to-make-it-accessible/"
-trans_url: "/gardez-le-accessible/"
+trans_url: "/comment-le-rendre-accessible/"
 tags:
 - principals
 - accessibility
