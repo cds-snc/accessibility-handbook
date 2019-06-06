@@ -8,7 +8,11 @@
   <div class="wrapper">
     <p id="footerHeading" class="site-footer__heading">{{ site.data.translation[page.lang].footer-heading }}</p>
     <nav class="site-footer__nav">
-      <a href="{{ site.baseurl}}/nav-tips/" class="site-footer__nav-link">{{ site.data.translation[page.lang].navigation-tips-bt }}</a>
+        {% if page.lang == "en" %}
+        <a href="{{ site.baseurl}}/navigation-tips" class="site-footer__nav-link">{{ site.data.translation[page.lang].navigation-tips-bt }}</a>
+        {% elsif page.lang == "fr" %}
+        <a href="{{ site.baseurl}}/conseils-de-navigation" class="site-footer__nav-link">{{ site.data.translation[page.lang].navigation-tips-bt }}</a>
+        {% endif %}
       <a class="site-footer__nav-link" href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/edit/{{ site.github.default_branch }}/{{ page.path }}">{{ site.data.translation[page.lang].edit-this-bt }}</a>
       <a class="site-footer__nav-link" href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/issues/">{{ site.data.translation[page.lang].file-an-issue-bt }}</a>
     </nav>

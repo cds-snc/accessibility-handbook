@@ -1,7 +1,11 @@
 ---
-title: Navigation tips
+title: Navigation Tips
+lang: en
+permalink: "/navigation-tips/"
+trans_url: "/conseils-de-navigation/"
 skip_index: true
 ---
+
 ### Mouse-free search
 
 To jump to the search box, press the `/` key. On the search results page, the
