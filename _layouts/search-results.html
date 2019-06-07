@@ -3,7 +3,7 @@ layout: page
 hide_edit_link: true
 search: true
 lang: fr
-title: Résultats de recherche
+title: Résultats de rechercher
 ---
 <script>
     /*
@@ -57,7 +57,7 @@ title: Résultats de recherche
         siteText.footerHeading = (langSetting === "en") ? "{{site.data.translation.en.footer-heading | json}}" : "{{site.data.translation.fr.footer-heading | json}}";
         siteText.home = (langSetting === "en") ? "Home" : "Accueil"; 
         siteText.homeUrl = (langSetting === "en") ? "/" : "/accueil"
-        siteText.searchPageHeading = (langSetting === "en") ? "Search Results" : "Résultats de recherche";
+        siteText.searchPageHeading = (langSetting === "en") ? "Search Results" : "{{page.title}}";
 
         var elems = {};
         elems.footerHeading = document.getElementById("footerHeading");
