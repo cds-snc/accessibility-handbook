@@ -3,7 +3,7 @@ layout: page
 hide_edit_link: true
 search: true
 lang: fr
-title: Résultats de recherche
+title: Résultats de rechercher
 ---
 <script>
     /*
@@ -20,12 +20,18 @@ title: Résultats de recherche
         var item = doc.createElement('li'),
             link = doc.createElement('a'),
             text = doc.createTextNode(result.title);
+            englishResultsElem = document.getElementsByClassName("english-results")[0];
     
         link.appendChild(text);
         link.title = result.title;
         link.href = result.url;
         item.appendChild(link);
-        resultsElem.appendChild(item);
+
+        if(result.lang === 'fr') {
+            resultsElem.appendChild(item);
+        } else {
+            englishResultsElem.appendChild(item);
+        }
     
         link.tabindex = index;
         if (index === 0) {
@@ -57,7 +63,7 @@ title: Résultats de recherche
         siteText.footerHeading = (langSetting === "en") ? "{{site.data.translation.en.footer-heading | json}}" : "{{site.data.translation.fr.footer-heading | json}}";
         siteText.home = (langSetting === "en") ? "Home" : "Accueil"; 
         siteText.homeUrl = (langSetting === "en") ? "/" : "/accueil"
-        siteText.searchPageHeading = (langSetting === "en") ? "Search Results" : "Résultats de recherche";
+        siteText.searchPageHeading = (langSetting === "en") ? "Search Results" : "{{page.title}}";
 
         var elems = {};
         elems.footerHeading = document.getElementById("footerHeading");
@@ -76,4 +82,11 @@ title: Résultats de recherche
     }
 </script>
 
+{% capture search_results %}
 {% jekyll_pages_api_search_results %}
+{% endcapture %}
+
+{{ search_results }}
+
+
+<ol class="english-results"></ol>
