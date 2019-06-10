@@ -19,11 +19,11 @@ At the Canadian Digital Service (CDS), we use a variety of testing tools, includ
 
 For automated testing, CDS uses a range of tools, including:
 
-- [insights.io](https://accessibilityinsights.io/)
+- [accessibilityinsights.io](https://accessibilityinsights.io/)
 - [Axe](https://www.deque.com/axe/)
 - [Siteimprove](https://siteimprove.com/en-ca/core-platform/integrations/browser-extensions/)
-- [WAVE](https://wave.webaim.org/)
-- [ADT google](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+- [WAVE Toolbar](https://wave.webaim.org/)
+- [Google Chrome - Accessibility Developer Plugin](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 
 **Pa11y / Puppeteer** is a [NodeJS (JavaScript) Library](https://github.com/pa11y/pa11y) for automating Google&#39;s Chrome &amp; Chromium Web Browser. The reason we choose this library over another tool such as selenium was purely due to ease of use.
 
