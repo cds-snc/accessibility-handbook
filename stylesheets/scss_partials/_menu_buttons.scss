@@ -20,6 +20,10 @@ ol.accessiblity-matters {
       text-align: center;
       width: 100%;
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
