@@ -12,7 +12,9 @@
     <li class="breadcrumbs__link"><a class="breadcrumbs__link-link" href={{homeUrl}}>{{homeText}}</a></li>
     {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-        <li class="breadcrumbs__link breadcrumbs__link--text"><span class="breadcrumbs__link-seperator">>></span>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+        <li class="breadcrumbs__link breadcrumbs__link--text"><span class="breadcrumbs__link-seperator">>></span>
+            <span>{% if page.search %}Rechercher{% else %}{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}{% endif %}</span>
+        </li>
     {% else %}
         <li class="breadcrumbs__link"><span class="breadcrumbs__link-seperator">>></span><a class="breadcrumbs__link-link" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
     {% endif %}
