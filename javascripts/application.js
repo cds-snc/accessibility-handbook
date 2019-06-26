@@ -110,4 +110,16 @@ $(document).ready(function() {
                       $(this).text(
                           text == "Show Me >" ? "Hide Image" : "Show Me >");
   }));
+
+  searchPlaceholderText();
 });
+
+function searchPlaceholderText() {
+  var langSetting = $('.lang-toggle').children(':first').text();
+    console.log(langSetting === 'English');
+    if (langSetting === 'English') {
+      $('#search-input').attr('placeholder','Rechercher');
+    } else {
+      $('#search-input').attr('placeholder','Search');
+    }
+}
