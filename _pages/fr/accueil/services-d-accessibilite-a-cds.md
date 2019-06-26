@@ -1,33 +1,38 @@
 ---
 layout: page
-title: Services d'accessibilité au SNC
+title: Services d'accessibilité pour les équipes du SNC
 lang: fr
 category: "accueil"
-permalink: "/services-d-accessibilite-a-snc/"
-trans_url: "/accessibility-services-at-cds/"
+permalink: "/services-d-accessibilite-pour-les-equipes-du-snc/"
+trans_url: "/accessibility-services-for-cds-teams/"
 tags:
 - accessibility
 - report
 ---
-Au SNC, vous pouvez bénéficier de nos services d’accessibilité. Les services fournis peuvent comprendre :
 
-- Un rapport de haut niveau qui comporte un niveau de référence de conformité et un statut de contrôle de priorité;
-- Un audit détaillé de l’accessibilité avec un rapport complet sur les problèmes trouvés, leur lien avec l’accessibilité et les prochaines étapes pour les résoudre;
-- Un atelier sur l’accessibilité fait sur mesure pour votre produit ou un sujet particulier, ou un atelier général sur l’accessibilité et la conception inclusive;
-- Une démonstration d’un examen manuel pour des tests d’accessibilité liés à la navigation au clavier, aux comportements, à l’utilisation de la couleur, à bonne la mise en œuvre d’ARIA, etc.;
+Le SNC fournit des services d’accessibilité spécialement pour ses équipes.
+
+Si vous travaillez au SNC, vous pouvez utiliser nos services d’accessibilité internes. Ceux-ci incluent:
+
+- Un rapport de haut niveau examinant la conformité de base et indiquant si votre produit respecte l’engagement pris par le SNC en matière d’accessibilité. Nous avons adapté une liste de contrôle provenant de 18F et l’avons mise à jour afin qu’elle corresponde aux normes WCAG 2.1 AA. Nous avons révisé les points de contrôle de façon à mieux répondre aux besoins des Canadiens. Pour en savoir plus sur les contrôles de priorité, consultez la section [« Comment assurer l’accessibilité »](/comment-le-rendre-accessible/).
+
+- Un audit d’accessibilité détaillé avec un rapport complet sur les problèmes identifiés, leur lien avec l’accessibilité et les prochaines étapes pour résoudre ces problèmes et tous les problèmes connexes.
+
+- Un atelier sur l’accessibilité fait sur mesure pour votre produit ou un sujet spécifique, ou un atelier général sur l’accessibilité et la conception inclusive.
+
+- Une démonstration d’un examen manuel pour des tests d’accessibilité liés à la navigation au clavier, aux comportements, à l’utilisation de la couleur, à la bonne mise en œuvre des applications ARIA (Accessible Rich Internet Applications), etc.
+
 - Un examen de l’accessibilité en binôme.
 
 ## Prévoir du temps pour l’analyse
 
-L’accessibilité demande du temps. Lorsque vous contactez les services d’accessibilité, vous pouvez vous attendre aux délais suivants :
+- Vous devez demander les services d’accessibilité au moins 3 semaines avant votre date limite.
+- Si vous demandez un rapport de haut niveau, vous devriez le recevoir dans un délai de 5 à 7 jours ouvrables.
+- Si vous demandez une vérification détaillée de l’accessibilité, vous devriez recevoir les résultats de la vérification dans un délai de 10 à 14 jours ouvrables.
 
-- [Les choses à faire et à ne pas faire au moment de la conception pour l&#39;accessibilité](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/) (site en anglais seulement)
-- [La façon dont le Government Digital Service a fait les tests d&#39;accessibilité sur GOV.UK](https://gds.blog.gov.uk/2012/01/20/user-testing-accessibility/) (site en anglais seulement)
+## Mon équipe vient de l’extérieur du SNC. Où puis-je trouver de l’aide?
 
-Vous pourriez également trouver les guides suivants utiles :
+Vous pouvez communiquer avec le Programme d’accessibilité, d’adaptation et de technologie informatique adaptée (AATIA) à Services partagés Canada (SPC). Pour réserver une séance d’information ou en apprendre davantage sur leur matériel et leurs ressources, contactez-les :
 
-- [Rendre votre service accessible : une introduction](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) (site en anglais seulement)
-- [Utiliser, adapter et créer des motifs](https://www.gov.uk/service-manual/design/using-adapting-and-creating-patterns) (site en anglais seulement)
-- [Utiliser l&#39;amélioration progressive](https://www.gov.uk/service-manual/technology/using-progressive-enhancement) (site en anglais seulement)
-- Un rapport de haut niveau aura une norme de service de 3 jours ouvrables.
-- Un contrôle détaillé de l’accessibilité aura une norme de service de 7 à 10 jours ouvrables.
+- Par courriel à [ssc.aaact-aatia.spc@canada.ca](mailto:ssc.aaact-aatia.spc@canada.ca)
+- Par téléphone au [819-994-4835](tel:819-994-4835)
