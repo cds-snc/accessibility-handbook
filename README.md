@@ -26,4 +26,3 @@ Serve the site:
 bundle exec jekyll serve
 ```
 
-## [Feedback](https://github.com/cds-snc/accessibility-handbook/issues)
