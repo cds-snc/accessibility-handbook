@@ -12,8 +12,8 @@ en:
     - text: Our Commitment
       url: our-commitment/
       internal: true
-    - text: Accessibility Services at CDS
-      url: accessibility-services-at-cds/
+    - text: Accessibility Services for CDS Teams
+      url: accessibility-services-for-cds-teams/
       internal: true
     - text: How to make it Accessible
       url: how-to-make-it-accessible/
@@ -35,8 +35,8 @@ fr:
     - text: Notre engagement
       url: notre-engagement/
       internal: true
-    - text: Services d’accessibilité au SNC
-      url: services-d-accessibilite-a-snc/
+    - text: Services d'accessibilité pour les équipes du SNC
+      url: services-d-accessibilite-pour-les-equipes-du-snc/
       internal: true
     - text: Comment assurer l’accessibilité
       url: comment-le-rendre-accessible/

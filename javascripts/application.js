@@ -38,7 +38,6 @@ $(document).ready(function() {
       var newLine, el, title, link;
 
       $("main h2, main h3, main h4, main h5").each(function(index) {
-        console.log(index);
         // $(this).waypoint({
         //   handler: function(direction){
         //     elementId = this.element.id;
@@ -116,7 +115,6 @@ $(document).ready(function() {
 
 function searchPlaceholderText() {
   var langSetting = $('.lang-toggle').children(':first').text();
-    console.log(langSetting === 'English');
     if (langSetting === 'English') {
       $('#search-input').attr('placeholder','Rechercher');
     } else {
