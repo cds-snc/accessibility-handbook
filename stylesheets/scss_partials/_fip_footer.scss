@@ -1,0 +1,33 @@
+.fip-footer {
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav {
+        width: 50%;
+
+        &-link {
+            text-decoration: none;
+            margin-right: 15px;
+            display: inline-block;
+            font-size: .875em;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__svg {
+        text-align: right;
+        height: 40px;
+        width: auto;
+        width: 50%;
+    }
+}
