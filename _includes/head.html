@@ -21,4 +21,10 @@
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+
+  <script type="text/javascript">
+    if (window.location.protocol != "https:") {
+      window.location = window.location.toString().replace(/^http:/, "https:");
+    }
+  </script>
 </head>
