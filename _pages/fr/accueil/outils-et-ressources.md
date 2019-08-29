@@ -1,6 +1,6 @@
 ---
 layout: page
-title: outils et ressources
+title: Outils et ressources
 lang: fr
 category: "accueil"
 permalink: "/outils-et-ressources/"
