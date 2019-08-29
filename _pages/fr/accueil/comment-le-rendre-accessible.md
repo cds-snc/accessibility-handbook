@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Comment le rendre accessible
+title: Comment assurer l’accessibilité
 lang: fr
 category: "accueil"
 permalink: "/comment-le-rendre-accessible/"
