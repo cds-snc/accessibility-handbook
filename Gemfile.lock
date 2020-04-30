@@ -53,7 +53,7 @@ GEM
     jekyll_pages_api_search (0.5.0)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
-    json (2.1.0)
+    json (2.3.0)
     kramdown (1.16.2)
     liquid (3.0.6)
     listen (3.1.5)
@@ -94,7 +94,7 @@ DEPENDENCIES
   hash-joiner
   html-proofer
   jekyll (~> 3.0.0)
-  json
+  json (>= 2.3.0)
   redcarpet
   rouge
 
@@ -102,4 +102,4 @@ RUBY VERSION
    ruby 2.6.1p33
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
