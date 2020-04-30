@@ -6,7 +6,7 @@ ruby '2.6.1'
 gem 'jekyll', '~> 3.0.0'
 gem 'redcarpet'
 gem 'rouge'
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'hash-joiner'
 
 group :jekyll_plugins do
