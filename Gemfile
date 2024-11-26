@@ -10,7 +10,7 @@ gem 'json'
 gem 'hash-joiner'
 
 group :jekyll_plugins do
-  gem 'guides_style_18f'
+  gem 'guides_style_18f', '>= 1.0.4'
 end
 
 group :development do
